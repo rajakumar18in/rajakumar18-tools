@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="RajaKumar18 Tools - Free AI, Gaming, SEO, PDF, YouTube, Instagram & Stylish Tools Platform. हिंदी, English, বাংলা, اردو, தமிழ், తెలుగు, ગુજરાતી, मराठी, ਪੰਜਾਬੀ languages supported.">
+<meta name="keywords" content="free tools, AI tools, SEO tools, text generator, YouTube tools, Instagram tools, PDF tools, online tools, rajakumar18">
+<meta name="author" content="RajaKumar18">
+<meta property="og:title" content="RajaKumar18 Tools - 100+ Free Online Tools">
+<meta property="og:description" content="Free AI, Gaming, SEO, PDF, YouTube, Instagram & Stylish Tools Platform">
+<meta property="og:url" content="https://rajakumar18in.github.io/rajakumar18-tools/">
+<title>RajaKumar18 Tools - 100+ Free Online Tools | AI, SEO, Text, YouTube</title>
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #ff6b35;
+    --primary-dark: #e85520;
+    --secondary: #1a1a2e;
+    --accent: #16213e;
+    --gold: #ffd700;
+    --bg: #0f0f1a;
+    --card-bg: #1a1a2e;
+    --card-border: #2a2a4a;
+    --text: #e8e8f0;
+    --text-muted: #9999bb;
+    --green: #00e676;
+    --blue: #2979ff;
+    --purple: #e040fb;
+    --pink: #ff4081;
+    --teal: #00bcd4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Baloo 2', 'Noto Sans Devanagari', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  /* HEADER */
+  header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--primary);
+    box-shadow: 0 4px 20px rgba(255,107,53,0.3);
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    gap: 16px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+  }
+  .logo-icon {
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(135deg, var(--primary), var(--gold));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(255,107,53,0.5);
+    flex-shrink: 0;
+  }
+  .logo-text { line-height: 1.1; }
+  .logo-text h1 { font-size: 18px; font-weight: 800; color: var(--text); letter-spacing: -0.3px; }
+  .logo-text span { font-size: 11px; color: var(--gold); font-weight: 600; }
+  nav { display: flex; gap: 4px; flex-wrap: wrap; }
+  nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  nav a:hover, nav a.active { background: var(--primary); color: #fff; }
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: 1.5px solid var(--card-border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0f0f1a 0%, #16213e 40%, #0f3460 100%);
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 50% 50%, rgba(255,107,53,0.08) 0%, transparent 60%);
+    animation: pulse 4s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:0.5} 50%{opacity:1} }
+  .hero-content { position: relative; z-index: 1; max-width: 800px; margin: auto; }
+  .hero-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary), var(--gold));
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .hero h2 {
+    font-size: clamp(28px, 6vw, 52px);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #fff 30%, var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hero p {
+    font-size: clamp(14px, 2.5vw, 18px);
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-stats {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .stat { text-align: center; }
+  .stat .num { font-size: 28px; font-weight: 800; color: var(--primary); }
+  .stat .lbl { font-size: 12px; color: var(--text-muted); }
+  .search-box {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 8px;
+  }
+  .search-box input {
+    flex: 1;
+    padding: 14px 20px;
+    border-radius: 50px;
+    border: 1.5px solid var(--card-border);
+    background: rgba(255,255,255,0.07);
+    color: var(--text);
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+  }
+  .search-box input:focus { border-color: var(--primary); }
+  .search-box input::placeholder { color: var(--text-muted); }
+  .btn-primary {
+    padding: 14px 24px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: inherit;
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(255,107,53,0.4); }
+  /* AD BANNER */
+  .ad-banner {
+    background: rgba(255,215,0,0.05);
+    border: 1px dashed rgba(255,215,0,0.3);
+    padding: 16px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12px;
+    margin: 0;
+  }
+  /* SECTION */
+  section { padding: 50px 20px; }
+  .section-inner { max-width: 1200px; margin: auto; }
+  .section-title {
+    font-size: clamp(22px, 4vw, 32px);
+    font-weight: 800;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, var(--text), var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .section-sub { color: var(--text-muted); margin-bottom: 32px; font-size: 14px; }
+  /* CATEGORIES */
+  .categories {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .cat-btn {
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 1.5px solid var(--card-border);
+    background: var(--card-bg);
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+  }
+  .cat-btn:hover, .cat-btn.active {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: rgba(255,107,53,0.1);
+  }
+  /* TOOLS GRID */
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .tool-card {
+    background: var(--card-bg);
+    border: 1.5px solid var(--card-border);
+    border-radius: 16px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.25s;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .tool-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--card-accent, var(--primary)), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .tool-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--card-accent, var(--primary));
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  }
+  .tool-card:hover::before { opacity: 1; }
+  .tool-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+  .tool-card h3 { font-size: 15px; font-weight: 700; line-height: 1.3; }
+  .tool-card p { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+  .tool-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 700;
+    background: rgba(0,230,118,0.15);
+    color: var(--green);
+    align-self: flex-start;
+  }
+  .tool-badge.hot { background: rgba(255,107,53,0.15); color: var(--primary); }
+  .tool-badge.new { background: rgba(41,121,255,0.15); color: var(--blue); }
+  /* TOOL MODAL */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  .modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; }
+  .modal {
+    background: var(--card-bg);
+    border: 1.5px solid var(--card-border);
+    border-radius: 20px;
+    padding: 32px;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    animation: slideUp 0.3s ease;
+  }
+  @keyframes slideUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+  .modal-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: var(--text);
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal h2 { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+  .modal .modal-desc { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
+  .input-group { margin-bottom: 16px; }
+  .input-group label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--text-muted); }
+  .input-group textarea, .input-group input, .input-group select {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1.5px solid var(--card-border);
+    background: rgba(255,255,255,0.05);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    resize: vertical;
+    transition: border-color 0.2s;
+  }
+  .input-group textarea:focus, .input-group input:focus, .input-group select:focus {
+    border-color: var(--primary);
+  }
+  .output-box {
+    background: rgba(0,0,0,0.3);
+    border: 1.5px solid var(--card-border);
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 14px;
+    min-height: 80px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin-top: 16px;
+    position: relative;
+  }
+  .copy-btn {
+    position: absolute;
+    top: 8px; right: 8px;
+    background: rgba(255,107,53,0.15);
+    border: none;
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+  .btn-secondary {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.07);
+    color: var(--text);
+    border: 1.5px solid var(--card-border);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+  }
+  .btn-secondary:hover { background: rgba(255,255,255,0.12); }
+  /* SOCIAL LINKS */
+  .social-bar {
+    background: var(--card-bg);
+    border-top: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+    padding: 16px 20px;
+  }
+  .social-inner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: 1.5px solid var(--card-border);
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+  .social-link:hover { transform: translateY(-2px); }
+  .social-link.ig { border-color: #E1306C; color: #E1306C; }
+  .social-link.yt { border-color: #FF0000; color: #FF0000; }
+  .social-link.fb { border-color: #1877F2; color: #1877F2; }
+  .social-link.web { border-color: var(--teal); color: var(--teal); }
+  /* PAGES */
+  .page { display: none; }
+  .page.active { display: block; }
+  #home { display: block; }
+  /* FOOTER */
+  footer {
+    background: var(--secondary);
+    border-top: 1px solid var(--card-border);
+    padding: 40px 20px 20px;
+  }
+  .footer-inner { max-width: 1200px; margin: auto; }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+  .footer-col h4 { font-size: 14px; font-weight: 700; color: var(--primary); margin-bottom: 12px; }
+  .footer-col a {
+    display: block;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 3px 0;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover { color: var(--primary); }
+  .footer-bottom {
+    border-top: 1px solid var(--card-border);
+    padding-top: 20px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+  /* ABOUT/CONTACT/POLICY pages */
+  .info-page { max-width: 800px; margin: auto; }
+  .info-card {
+    background: var(--card-bg);
+    border: 1.5px solid var(--card-border);
+    border-radius: 20px;
+    padding: 32px;
+    margin-bottom: 20px;
+  }
+  .info-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--primary); }
+  .info-card p, .info-card li { font-size: 14px; color: var(--text-muted); line-height: 1.8; }
+  .info-card ul { padding-left: 20px; }
+  .contact-form { display: flex; flex-direction: column; gap: 14px; }
+  @media (max-width: 768px) {
+    .header-inner { flex-wrap: wrap; }
+    nav { display: none; width: 100%; }
+    nav.open { display: flex; flex-direction: column; padding-bottom: 12px; }
+    .menu-toggle { display: block; }
+    .hero { padding: 40px 16px; }
+    .tools-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+    .tool-card { padding: 14px; }
+    .modal { padding: 20px; }
+    section { padding: 32px 16px; }
+  }
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 3px; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <a class="logo" href="#" onclick="showPage('home')">
+      <div class="logo-icon">R18</div>
+      <div class="logo-text">
+        <h1>RajaKumar18 Tools</h1>
+        <span>100+ Free Online Tools</span>
+      </div>
+    </a>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav id="main-nav">
+      <a href="#" class="active" onclick="showPage('home')">🏠 Home</a>
+      <a href="#" onclick="showPage('tools')">🔧 Tools</a>
+      <a href="#" onclick="showPage('about')">ℹ️ About</a>
+      <a href="#" onclick="showPage('contact')">📞 Contact</a>
+      <a href="#" onclick="showPage('policy')">📜 Policy</a>
+    </nav>
+  </div>
+</header>
+
+<!-- SOCIAL BAR -->
+<div class="social-bar">
+  <div class="social-inner">
+    <span style="font-size:12px;color:var(--text-muted);font-weight:600;">Follow us:</span>
+    <a href="https://www.instagram.com/rajakumar18.in" target="_blank" class="social-link ig">📸 Instagram</a>
+    <a href="https://www.youtube.com/@rajakumar18in" target="_blank" class="social-link yt">▶️ YouTube</a>
+    <a href="https://www.facebook.com/share/188kPJzBfr/" target="_blank" class="social-link fb">👍 Facebook</a>
+    <a href="https://rajakumar18.in" target="_blank" class="social-link web">🌐 Website</a>
+  </div>
+</div>
+
+<!-- ==================== HOME PAGE ==================== -->
+<div id="home" class="page active">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">🚀 100% Free • No Login Required</div>
+      <h2>100+ Free Online Tools<br>एक ही जगह सब कुछ</h2>
+      <p>AI Tools, SEO Tools, Text Generator, YouTube Tools, Instagram, PDF, Gaming & बहुत कुछ — हिंदी में भी!</p>
+      <div class="hero-stats">
+        <div class="stat"><div class="num">100+</div><div class="lbl">Free Tools</div></div>
+        <div class="stat"><div class="num">10+</div><div class="lbl">Languages</div></div>
+        <div class="stat"><div class="num">0₹</div><div class="lbl">Cost</div></div>
+        <div class="stat"><div class="num">24/7</div><div class="lbl">Available</div></div>
+      </div>
+      <div class="search-box">
+        <input type="text" id="hero-search" placeholder="🔍 Tool खोजें... (e.g. text generator)" oninput="filterTools(this.value)">
+        <button class="btn-primary" onclick="showPage('tools')">सभी Tools →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- AD -->
+  <div class="ad-banner">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- FEATURED TOOLS -->
+  <section>
+    <div class="section-inner">
+      <div class="section-title">⭐ Popular Tools</div>
+      <div class="section-sub">सबसे ज्यादा use होने वाले tools</div>
+      <div class="tools-grid" id="featured-grid"></div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES PREVIEW -->
+  <section style="padding-top:0">
+    <div class="section-inner">
+      <div class="section-title">📦 Tool Categories</div>
+      <div class="section-sub">अपनी जरूरत के हिसाब से category चुनें</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px" id="cat-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== TOOLS PAGE ==================== -->
+<div id="tools" class="page">
+  <section>
+    <div class="section-inner">
+      <div class="section-title">🔧 All Tools</div>
+      <div class="section-sub">100+ free tools — बिल्कुल मुफ्त, कोई login नहीं</div>
+      <div class="search-box" style="max-width:100%;margin-bottom:24px">
+        <input type="text" id="tools-search" placeholder="🔍 Tool खोजें..." oninput="filterTools(this.value)" style="border-radius:12px">
+      </div>
+      <div class="categories" id="cats-bar"></div>
+      <div class="tools-grid" id="all-tools-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== ABOUT PAGE ==================== -->
+<div id="about" class="page">
+  <section>
+    <div class="section-inner info-page">
+      <div class="section-title">ℹ️ About Us</div>
+      <div class="section-sub">हमारे बारे में जानें</div>
+      <div class="info-card">
+        <h3>🌟 RajaKumar18 Tools क्या है?</h3>
+        <p>RajaKumar18 Tools एक Free Online Tools Platform है जहाँ आपको 100+ tools मिलते हैं — AI Tools, SEO, PDF, YouTube, Instagram, Text Generator और बहुत कुछ।</p>
+        <p style="margin-top:10px">यह platform especially भारतीय users के लिए बनाया गया है जो हिंदी, English, বাংলা, اردو, தமிழ், తెలుగు, ગુજરાતી, मराठी, ਪੰਜਾਬੀ में काम करते हैं।</p>
+      </div>
+      <div class="info-card">
+        <h3>👨‍💻 Founder</h3>
+        <p><strong style="color:var(--text)">RajaKumar18</strong> — Digital Creator, YouTuber & Tool Developer</p>
+        <ul style="margin-top:10px">
+          <li>📸 Instagram: <a href="https://www.instagram.com/rajakumar18.in" target="_blank" style="color:var(--primary)">@rajakumar18.in</a></li>
+          <li>▶️ YouTube: <a href="https://www.youtube.com/@rajakumar18in" target="_blank" style="color:var(--primary)">@rajakumar18in</a></li>
+          <li>🌐 Website: <a href="https://rajakumar18.in" target="_blank" style="color:var(--primary)">rajakumar18.in</a></li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <h3>🎯 हमारा Mission</h3>
+        <p>हर भारतीय को Free, Fast और Easy online tools मिलें — यही हमारा लक्ष्य है। कोई login नहीं, कोई charge नहीं।</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== CONTACT PAGE ==================== -->
+<div id="contact" class="page">
+  <section>
+    <div class="section-inner info-page">
+      <div class="section-title">📞 Contact Us</div>
+      <div class="section-sub">हमसे संपर्क करें</div>
+      <div class="info-card">
+        <h3>📬 Contact Information</h3>
+        <ul>
+          <li>📧 Email: <a href="mailto:rajahribabakumar@gmail.com" style="color:var(--primary)">rajahribabakumar@gmail.com</a></li>
+          <li>📱 Phone/WhatsApp: <a href="tel:9682316132" style="color:var(--primary)">9682316132</a></li>
+          <li>📸 Instagram: <a href="https://www.instagram.com/rajakumar18.in" target="_blank" style="color:var(--primary)">@rajakumar18.in</a></li>
+          <li>🌐 Website: <a href="https://rajakumar18.in" target="_blank" style="color:var(--primary)">rajakumar18.in</a></li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <h3>✉️ Message भेजें</h3>
+        <div class="contact-form">
+          <div class="input-group">
+            <label>आपका नाम</label>
+            <input type="text" placeholder="Name लिखें...">
+          </div>
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="Email लिखें...">
+          </div>
+          <div class="input-group">
+            <label>Message</label>
+            <textarea rows="4" placeholder="अपना message लिखें..."></textarea>
+          </div>
+          <button class="btn-primary" onclick="alert('Message send हो गया! हम जल्द reply करेंगे। 🙏')">📤 Send Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ==================== POLICY PAGE ==================== -->
+<div id="policy" class="page">
+  <section>
+    <div class="section-inner info-page">
+      <div class="section-title">📜 Privacy Policy & Terms</div>
+      <div class="section-sub">Last updated: 2026</div>
+      <div class="info-card">
+        <h3>🔒 Privacy Policy</h3>
+        <p>हम आपकी privacy का पूरा सम्मान करते हैं:</p>
+        <ul>
+          <li>हम कोई personal data store नहीं करते।</li>
+          <li>Tools में input किया गया data आपके browser में ही process होता है।</li>
+          <li>हम Google AdSense use करते हैं जो cookies use कर सकता है।</li>
+          <li>हम third-party links provide करते हैं जिनकी अपनी privacy policy है।</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <h3>📋 Terms of Service</h3>
+        <ul>
+          <li>यह platform सिर्फ legal और ethical use के लिए है।</li>
+          <li>Tools का misuse करना prohibited है।</li>
+          <li>हम service किसी भी समय बिना notice के change कर सकते हैं।</li>
+          <li>यह platform "as is" basis पर provide किया जाता है।</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <h3>🍪 Cookie Policy</h3>
+        <p>हम Google AdSense और Analytics के लिए cookies use करते हैं। इन्हें अपने browser settings में disable किया जा सकता है।</p>
+      </div>
+      <div class="info-card">
+        <h3>⚠️ Disclaimer</h3>
+        <p>यहाँ दिए गए सभी tools educational और personal use के लिए हैं। किसी भी tool के result की accuracy की guarantee नहीं है।</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- TOOL MODAL -->
+<div class="modal-overlay" id="modal" onclick="closeModal(event)">
+  <div class="modal" id="modal-content">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>🔧 Popular Tools</h4>
+        <a href="#" onclick="openToolById('fancy-text')">Fancy Text Generator</a>
+        <a href="#" onclick="openToolById('word-counter')">Word Counter</a>
+        <a href="#" onclick="openToolById('password-gen')">Password Generator</a>
+        <a href="#" onclick="openToolById('qr-gen')">QR Code Generator</a>
+        <a href="#" onclick="openToolById('color-picker')">Color Picker</a>
+      </div>
+      <div class="footer-col">
+        <h4>📱 Social Media</h4>
+        <a href="https://www.instagram.com/rajakumar18.in" target="_blank">📸 Instagram</a>
+        <a href="https://www.youtube.com/@rajakumar18in" target="_blank">▶️ YouTube</a>
+        <a href="https://www.facebook.com/share/188kPJzBfr/" target="_blank">👍 Facebook</a>
+        <a href="https://rajakumar18.in" target="_blank">🌐 Website</a>
+      </div>
+      <div class="footer-col">
+        <h4>📄 Pages</h4>
+        <a href="#" onclick="showPage('about')">About Us</a>
+        <a href="#" onclick="showPage('contact')">Contact</a>
+        <a href="#" onclick="showPage('policy')">Privacy Policy</a>
+        <a href="#" onclick="showPage('policy')">Terms of Service</a>
+        <a href="#" onclick="showPage('policy')">Disclaimer</a>
+      </div>
+      <div class="footer-col">
+        <h4>📞 Contact</h4>
+        <a href="mailto:rajahribabakumar@gmail.com">✉️ rajahribabakumar@gmail.com</a>
+        <a href="tel:9682316132">📱 9682316132</a>
+        <a href="https://rajakumar18.in" target="_blank">🌐 rajakumar18.in</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 RajaKumar18 Tools | Made with ❤️ in India 🇮🇳</p>
+      <p style="margin-top:6px">Hosted on GitHub Pages | <a href="#" onclick="showPage('policy')" style="color:var(--primary)">Privacy Policy</a> | <a href="#" onclick="showPage('policy')" style="color:var(--primary)">Terms</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ============================================================
+// TOOLS DATA - 100 Tools
+// ============================================================
+const TOOLS = [
+  // TEXT TOOLS
+  {id:'fancy-text',name:'Fancy Text Generator',desc:'Normal text को stylish/fancy बनाओ',icon:'✨',cat:'Text',color:'#e040fb',badge:'hot',featured:true,
+    html:`<div class="input-group"><label>Normal Text लिखो</label><textarea id="ft-in" rows="3" placeholder="यहाँ text लिखो..."></textarea></div>
+    <button class="btn-primary" onclick="genFancy()">✨ Generate करो</button>
+    <div class="output-box" id="ft-out" style="min-height:120px"><span style="color:var(--text-muted)">Result यहाँ आएगा...</span><button class="copy-btn" onclick="copyOut('ft-out')">Copy</button></div>`,
+    script:`function genFancy(){const t=document.getElementById('ft-in').value;if(!t)return;const styles=[...t].map(c=>{const n=c.codePointAt(0);const o=[...t].map(c=>{const maps={a:'𝒶',b:'𝒷',c:'𝒸',d:'𝒹',e:'𝑒',f:'𝒻',g:'ℊ',h:'𝒽',i:'𝒾',j:'𝒿',k:'𝓀',l:'𝓁',m:'𝓂',n:'𝓃',o:'ℴ',p:'𝓅',q:'𝓆',r:'𝓇',s:'𝓈',t:'𝓉',u:'𝓊',v:'𝓋',w:'𝓌',x:'𝓍',y:'𝓎',z:'𝓏',A:'𝒜',B:'ℬ',C:'𝒞',D:'𝒟',E:'ℰ',F:'ℱ',G:'𝒢',H:'ℋ',I:'ℐ',J:'𝒥',K:'𝒦',L:'ℒ',M:'ℳ',N:'𝒩',O:'𝒪',P:'𝒫',Q:'𝒬',R:'ℛ',S:'𝒮',T:'𝒯',U:'𝒰',V:'𝒱',W:'𝒲',X:'𝒳',Y:'𝒴',Z:'𝒵'};return maps[c]||c}).join('');const bold=[...t].map(c=>{const m={a:'𝐚',b:'𝐛',c:'𝐜',d:'𝐝',e:'𝐞',f:'𝐟',g:'𝐠',h:'𝐡',i:'𝐢',j:'𝐣',k:'𝐤',l:'𝐥',m:'𝐦',n:'𝐧',o:'𝐨',p:'𝐩',q:'𝐪',r:'𝐫',s:'𝐬',t:'𝐭',u:'𝐮',v:'𝐯',w:'𝐰',x:'𝐱',y:'𝐲',z:'𝐳',A:'𝐀',B:'𝐁',C:'𝐂',D:'𝐃',E:'𝐄',F:'𝐅',G:'𝐆',H:'𝐇',I:'𝐈',J:'𝐉',K:'𝐊',L:'𝐋',M:'𝐌',N:'𝐍',O:'𝐎',P:'𝐏',Q:'𝐐',R:'𝐑',S:'𝐒',T:'𝐓',U:'𝐔',V:'𝐕',W:'𝐖',X:'𝐗',Y:'𝐘',Z:'𝐙'};return m[c]||c}).join('');document.getElementById('ft-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'ft-out\')">Copy</button><b>Script:</b><br>'+o+'<br><br><b>Bold:</b><br>'+bold+'<br><br><b>Caps:</b><br>'+t.toUpperCase()+'<br><br><b>Reverse:</b><br>'+ [...t].reverse().join('')+'<br><br><b>Bubble:</b><br>'+ [...t].map(c=>({a:'ⓐ',b:'ⓑ',c:'ⓒ',d:'ⓓ',e:'ⓔ',f:'ⓕ',g:'ⓖ',h:'ⓗ',i:'ⓘ',j:'ⓙ',k:'ⓚ',l:'ⓛ',m:'ⓜ',n:'ⓝ',o:'ⓞ',p:'ⓟ',q:'ⓠ',r:'ⓡ',s:'ⓢ',t:'ⓣ',u:'ⓤ',v:'ⓥ',w:'�ⓦ',x:'ⓧ',y:'ⓨ',z:'ⓩ'}[c.toLowerCase()]||c)).join('');}}`
+  },
+  {id:'word-counter',name:'Word Counter',desc:'Words, characters, sentences count करो',icon:'📊',cat:'Text',color:'#00bcd4',badge:'free',featured:true,
+    html:`<div class="input-group"><label>Text paste करो</label><textarea id="wc-in" rows="6" placeholder="यहाँ text paste करो..." oninput="countWords()"></textarea></div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px">
+    <div style="background:rgba(0,188,212,0.1);border:1px solid rgba(0,188,212,0.3);border-radius:10px;padding:16px;text-align:center"><div style="font-size:28px;font-weight:800;color:#00bcd4" id="wc-words">0</div><div style="font-size:12px;color:var(--text-muted)">Words</div></div>
+    <div style="background:rgba(224,64,251,0.1);border:1px solid rgba(224,64,251,0.3);border-radius:10px;padding:16px;text-align:center"><div style="font-size:28px;font-weight:800;color:#e040fb" id="wc-chars">0</div><div style="font-size:12px;color:var(--text-muted)">Characters</div></div>
+    <div style="background:rgba(0,230,118,0.1);border:1px solid rgba(0,230,118,0.3);border-radius:10px;padding:16px;text-align:center"><div style="font-size:28px;font-weight:800;color:#00e676" id="wc-lines">0</div><div style="font-size:12px;color:var(--text-muted)">Lines</div></div></div>`,
+    script:`function countWords(){const t=document.getElementById('wc-in').value;document.getElementById('wc-words').textContent=t.trim()?t.trim().split(/\s+/).length:0;document.getElementById('wc-chars').textContent=t.length;document.getElementById('wc-lines').textContent=t?t.split('\n').length:0;}`
+  },
+  {id:'case-converter',name:'Case Converter',desc:'Text case बदलो — UPPER, lower, Title',icon:'🔤',cat:'Text',color:'#ff9800',badge:'free',featured:false,
+    html:`<div class="input-group"><label>Text लिखो</label><textarea id="cc-in" rows="4" placeholder="Text यहाँ..."></textarea></div>
+    <div class="btn-row">
+    <button class="btn-secondary" onclick="cc('upper')">UPPERCASE</button>
+    <button class="btn-secondary" onclick="cc('lower')">lowercase</button>
+    <button class="btn-secondary" onclick="cc('title')">Title Case</button>
+    <button class="btn-secondary" onclick="cc('sentence')">Sentence case</button>
+    <button class="btn-secondary" onclick="cc('alt')">aLtErNaTiNg</button>
+    </div>
+    <div class="output-box" id="cc-out"><button class="copy-btn" onclick="copyOut('cc-out')">Copy</button><span style="color:var(--text-muted)">Result...</span></div>`,
+    script:`function cc(type){const t=document.getElementById('cc-in').value;let r=t;if(type==='upper')r=t.toUpperCase();else if(type==='lower')r=t.toLowerCase();else if(type==='title')r=t.replace(/\w\S*/g,w=>w.charAt(0).toUpperCase()+w.slice(1).toLowerCase());else if(type==='sentence')r=t.toLowerCase().replace(/(^\s*\w|[.!?]\s*\w)/g,c=>c.toUpperCase());else if(type==='alt')r=[...t].map((c,i)=>i%2===0?c.toLowerCase():c.toUpperCase()).join('');document.getElementById('cc-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'cc-out\')">Copy</button>'+r;}`
+  },
+  {id:'lorem-gen',name:'Lorem Ipsum Generator',desc:'Dummy text generate करो',icon:'📝',cat:'Text',color:'#9c27b0',badge:'free',
+    html:`<div class="input-group"><label>Paragraphs की संख्या</label><input type="number" id="li-num" value="3" min="1" max="20"></div>
+    <button class="btn-primary" onclick="genLorem()">📝 Generate</button>
+    <div class="output-box" id="li-out"><button class="copy-btn" onclick="copyOut('li-out')">Copy</button></div>`,
+    script:`function genLorem(){const n=parseInt(document.getElementById('li-num').value)||3;const s='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. ';let r='';for(let i=0;i<n;i++)r+='<p>'+s+'</p>';document.getElementById('li-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'li-out\')">Copy</button>'+r;}`
+  },
+  {id:'text-reverse',name:'Text Reverser',desc:'Text को उल्टा करो',icon:'🔄',cat:'Text',color:'#f44336',badge:'free',
+    html:`<div class="input-group"><label>Text लिखो</label><textarea id="tr-in" rows="3" placeholder="Text यहाँ..."></textarea></div>
+    <div class="btn-row"><button class="btn-primary" onclick="revText()">🔄 Reverse</button></div>
+    <div class="output-box" id="tr-out"><button class="copy-btn" onclick="copyOut('tr-out')">Copy</button></div>`,
+    script:`function revText(){const t=document.getElementById('tr-in').value;const r=[...t].reverse().join('');document.getElementById('tr-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'tr-out\')">Copy</button>'+r;}`
+  },
+  {id:'duplicate-remover',name:'Duplicate Line Remover',desc:'Duplicate lines हटाओ',icon:'🗑️',cat:'Text',color:'#607d8b',badge:'free',
+    html:`<div class="input-group"><label>Text (एक line = एक item)</label><textarea id="dr-in" rows="6" placeholder="Lines यहाँ..."></textarea></div>
+    <button class="btn-primary" onclick="removeDups()">🗑️ Remove Duplicates</button>
+    <div class="output-box" id="dr-out"><button class="copy-btn" onclick="copyOut('dr-out')">Copy</button></div>`,
+    script:`function removeDups(){const lines=document.getElementById('dr-in').value.split('\n');const uniq=[...new Set(lines.map(l=>l.trim()).filter(l=>l))];document.getElementById('dr-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'dr-out\')">Copy</button>'+uniq.join('\n')+'\n\n('+lines.length+' → '+uniq.length+' lines)';}`
+  },
+  // PASSWORD & SECURITY
+  {id:'password-gen',name:'Password Generator',desc:'Strong password generate करो',icon:'🔑',cat:'Security',color:'#ff5722',badge:'hot',featured:true,
+    html:`<div class="input-group"><label>Length: <span id="pwd-len-v">16</span></label><input type="range" id="pwd-len" min="4" max="64" value="16" oninput="document.getElementById('pwd-len-v').textContent=this.value"></div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:16px">
+    <label style="display:flex;align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="pwd-up" checked> Uppercase</label>
+    <label style="display:flex;align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="pwd-lo" checked> Lowercase</label>
+    <label style="display:flex;align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="pwd-num" checked> Numbers</label>
+    <label style="display:flex;align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="pwd-sym" checked> Symbols</label>
+    </div>
+    <button class="btn-primary" onclick="genPwd()">🔑 Generate Password</button>
+    <div class="output-box" id="pwd-out" style="font-family:monospace;font-size:18px;letter-spacing:2px;text-align:center"><button class="copy-btn" onclick="copyOut('pwd-out')">Copy</button>Click Generate</div>`,
+    script:`function genPwd(){const len=parseInt(document.getElementById('pwd-len').value);let chars='';if(document.getElementById('pwd-up').checked)chars+='ABCDEFGHIJKLMNOPQRSTUVWXYZ';if(document.getElementById('pwd-lo').checked)chars+='abcdefghijklmnopqrstuvwxyz';if(document.getElementById('pwd-num').checked)chars+='0123456789';if(document.getElementById('pwd-sym').checked)chars+='!@#$%^&*()_+-=[]{}|;:,.<>?';if(!chars){alert('कम से कम एक option select करो!');return;}let pwd='';for(let i=0;i<len;i++)pwd+=chars[Math.floor(Math.random()*chars.length)];document.getElementById('pwd-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'pwd-out\')">Copy</button>'+pwd;}`
+  },
+  {id:'hash-gen',name:'Text Hash Generator',desc:'MD5/SHA style hash बनाओ',icon:'#️⃣',cat:'Security',color:'#795548',badge:'free',
+    html:`<div class="input-group"><label>Text</label><input type="text" id="hg-in" placeholder="Text यहाँ..."></div>
+    <button class="btn-primary" onclick="genHash()">Generate Hash</button>
+    <div class="output-box" id="hg-out" style="font-family:monospace"><button class="copy-btn" onclick="copyOut('hg-out')">Copy</button></div>`,
+    script:`async function genHash(){const t=document.getElementById('hg-in').value;if(!t)return;const enc=new TextEncoder();const data=enc.encode(t);const h=await crypto.subtle.digest('SHA-256',data);const arr=Array.from(new Uint8Array(h));const hex=arr.map(b=>b.toString(16).padStart(2,'0')).join('');document.getElementById('hg-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'hg-out\')">Copy</button><b>SHA-256:</b><br>'+hex;}`
+  },
+  // QR & BARCODE
+  {id:'qr-gen',name:'QR Code Generator',desc:'QR code बनाओ — Link, Text, Contact',icon:'📱',cat:'Generator',color:'#4caf50',badge:'hot',featured:true,
+    html:`<div class="input-group"><label>URL या Text</label><input type="text" id="qr-in" value="https://rajakumar18.in" placeholder="URL या text..."></div>
+    <div class="input-group"><label>Size</label><select id="qr-size"><option value="150">Small</option><option value="200" selected>Medium</option><option value="300">Large</option></select></div>
+    <button class="btn-primary" onclick="genQR()">📱 Generate QR</button>
+    <div id="qr-out" style="margin-top:16px;text-align:center"></div>`,
+    script:`function genQR(){const t=encodeURIComponent(document.getElementById('qr-in').value||'https://rajakumar18.in');const s=document.getElementById('qr-size').value;document.getElementById('qr-out').innerHTML='<img src="https://api.qrserver.com/v1/create-qr-code/?size='+s+'x'+s+'&data='+t+'" style="border-radius:12px;border:4px solid var(--card-border)"><br><a href="https://api.qrserver.com/v1/create-qr-code/?size='+s+'x'+s+'&data='+t+'" download="qrcode.png" class="btn-primary" style="display:inline-block;margin-top:12px;text-decoration:none">⬇️ Download</a>';}`
+  },
+  // COLOR TOOLS
+  {id:'color-picker',name:'Color Picker & Converter',desc:'Color pick करो, HEX/RGB/HSL convert',icon:'🎨',cat:'Design',color:'#e91e63',badge:'new',featured:true,
+    html:`<div class="input-group"><label>Color चुनो</label><input type="color" id="cp-pick" value="#ff6b35" oninput="updateColor(this.value)" style="width:100%;height:60px;cursor:pointer;border-radius:10px;border:none"></div>
+    <div id="cp-out" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:12px"></div>`,
+    script:`function updateColor(hex){const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);const h=Math.round(Math.atan2(Math.sqrt(3)*(g-b),2*r-g-b)*180/Math.PI);const s=Math.max(r,g,b)-Math.min(r,g,b);document.getElementById('cp-out').innerHTML='<div style="background:'+hex+';padding:20px;border-radius:10px;text-align:center;cursor:pointer" onclick="navigator.clipboard.writeText(\''+hex+'\')"><small>HEX</small><br><b>'+hex+'</b></div><div style="background:rgb('+r+','+g+','+b+');padding:20px;border-radius:10px;text-align:center;cursor:pointer" onclick="navigator.clipboard.writeText(\'rgb('+r+','+g+','+b+')\')"><small>RGB</small><br><b>'+r+','+g+','+b+'</b></div><div style="background:'+hex+';padding:20px;border-radius:10px;text-align:center;color:#fff;cursor:pointer"><small>Click to Copy</small><br><b>✓</b></div>';} updateColor('#ff6b35');`
+  },
+  // CALCULATOR TOOLS
+  {id:'age-calc',name:'Age Calculator',desc:'उम्र calculate करो (Years, Months, Days)',icon:'🎂',cat:'Calculator',color:'#ff9800',badge:'free',featured:true,
+    html:`<div class="input-group"><label>Date of Birth</label><input type="date" id="ac-dob"></div>
+    <button class="btn-primary" onclick="calcAge()">🎂 Calculate Age</button>
+    <div class="output-box" id="ac-out"><span style="color:var(--text-muted)">Result...</span></div>`,
+    script:`function calcAge(){const d=new Date(document.getElementById('ac-dob').value);if(!d)return;const n=new Date();let y=n.getFullYear()-d.getFullYear(),m=n.getMonth()-d.getMonth(),day=n.getDate()-d.getDate();if(day<0){m--;day+=new Date(n.getFullYear(),n.getMonth(),0).getDate();}if(m<0){y--;m+=12;}document.getElementById('ac-out').innerHTML='<b>🎂 उम्र:</b> '+y+' साल, '+m+' महीने, '+day+' दिन<br><b>कुल दिन:</b> '+Math.floor((n-d)/86400000);}`
+  },
+  {id:'percentage-calc',name:'Percentage Calculator',desc:'Percentage calculate करो',icon:'%',cat:'Calculator',color:'#2196f3',badge:'free',
+    html:`<div class="input-group"><label>Value</label><input type="number" id="pc-val" placeholder="जैसे 80"></div>
+    <div class="input-group"><label>Total</label><input type="number" id="pc-tot" placeholder="जैसे 200"></div>
+    <button class="btn-primary" onclick="calcPct()">% Calculate</button>
+    <div class="output-box" id="pc-out"></div>`,
+    script:`function calcPct(){const v=parseFloat(document.getElementById('pc-val').value),t=parseFloat(document.getElementById('pc-tot').value);if(!v||!t)return;const p=(v/t*100).toFixed(2);document.getElementById('pc-out').innerHTML='<b>'+v+'/'+t+' = '+p+'%</b><br><br>'+t+' का '+p+'% = '+v+'<br>'+v+' का 10% = '+(v*0.1).toFixed(2);}`
+  },
+  {id:'emi-calc',name:'EMI Calculator',desc:'Loan EMI calculate करो',icon:'🏦',cat:'Calculator',color:'#009688',badge:'free',
+    html:`<div class="input-group"><label>Loan Amount (₹)</label><input type="number" id="emi-p" placeholder="जैसे 500000"></div>
+    <div class="input-group"><label>Interest Rate (% per year)</label><input type="number" id="emi-r" placeholder="जैसे 8.5" step="0.1"></div>
+    <div class="input-group"><label>Tenure (Months)</label><input type="number" id="emi-t" placeholder="जैसे 60"></div>
+    <button class="btn-primary" onclick="calcEMI()">🏦 Calculate EMI</button>
+    <div class="output-box" id="emi-out"></div>`,
+    script:`function calcEMI(){const p=parseFloat(document.getElementById('emi-p').value);const r=parseFloat(document.getElementById('emi-r').value)/12/100;const n=parseInt(document.getElementById('emi-t').value);if(!p||!r||!n)return;const emi=p*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1);const total=emi*n;document.getElementById('emi-out').innerHTML='<b>📅 Monthly EMI: ₹'+emi.toFixed(0)+'</b><br>Total Amount: ₹'+total.toFixed(0)+'<br>Total Interest: ₹'+(total-p).toFixed(0);}`
+  },
+  {id:'gst-calc',name:'GST Calculator',desc:'GST amount calculate करो',icon:'🧾',cat:'Calculator',color:'#8bc34a',badge:'free',
+    html:`<div class="input-group"><label>Amount (₹)</label><input type="number" id="gst-amt" placeholder="Amount..."></div>
+    <div class="input-group"><label>GST Rate</label><select id="gst-rate"><option value="5">5%</option><option value="12">12%</option><option value="18" selected>18%</option><option value="28">28%</option></select></div>
+    <div class="btn-row"><button class="btn-primary" onclick="calcGST('add')">Add GST</button><button class="btn-secondary" onclick="calcGST('remove')">Remove GST</button></div>
+    <div class="output-box" id="gst-out"></div>`,
+    script:`function calcGST(type){const a=parseFloat(document.getElementById('gst-amt').value);const r=parseFloat(document.getElementById('gst-rate').value)/100;if(!a)return;let base,gst,total;if(type==='add'){base=a;gst=a*r;total=a+gst;}else{total=a;base=a/(1+r);gst=a-base;}document.getElementById('gst-out').innerHTML='Base: ₹'+base.toFixed(2)+'<br>GST ('+r*100+'%): ₹'+gst.toFixed(2)+'<br><b>Total: ₹'+total.toFixed(2)+'</b>';}`
+  },
+  // YOUTUBE TOOLS
+  {id:'yt-thumbnail',name:'YouTube Thumbnail Tips',desc:'Best thumbnail बनाने के tips',icon:'▶️',cat:'YouTube',color:'#f44336',badge:'hot',featured:true,
+    html:`<div style="display:flex;flex-direction:column;gap:12px">
+    <div style="background:rgba(244,67,54,0.1);border:1px solid rgba(244,67,54,0.3);border-radius:12px;padding:16px"><h4 style="color:#f44336;margin-bottom:8px">📐 Size & Format</h4><p style="font-size:13px;color:var(--text-muted)">✅ 1280×720 pixels (16:9)<br>✅ JPG, PNG format<br>✅ 2MB से कम size रखो</p></div>
+    <div style="background:rgba(0,230,118,0.1);border:1px solid rgba(0,230,118,0.3);border-radius:12px;padding:16px"><h4 style="color:#00e676;margin-bottom:8px">🎨 Design Tips</h4><p style="font-size:13px;color:var(--text-muted)">✅ Bold, big text use करो<br>✅ Bright contrasting colors<br>✅ Human face add करो<br>✅ 3-4 words max text</p></div>
+    <div style="background:rgba(255,215,0,0.1);border:1px solid rgba(255,215,0,0.3);border-radius:12px;padding:16px"><h4 style="color:var(--gold);margin-bottom:8px">🛠️ Free Tools</h4><p style="font-size:13px;color:var(--text-muted)"><a href="https://www.canva.com" target="_blank" style="color:var(--primary)">Canva.com</a> — Best free thumbnail maker<br><a href="https://pixlr.com" target="_blank" style="color:var(--primary)">Pixlr.com</a> — Photoshop जैसा free<br><a href="https://remove.bg" target="_blank" style="color:var(--primary)">Remove.bg</a> — Background remove free</p></div>
+    </div>`,
+    script:``
+  },
+  {id:'yt-tag-gen',name:'YouTube Tag Generator',desc:'Video के लिए tags generate करो',icon:'🏷️',cat:'YouTube',color:'#ff0000',badge:'new',
+    html:`<div class="input-group"><label>Video Topic/Title</label><input type="text" id="ytg-in" placeholder="जैसे: How to make money online"></div>
+    <button class="btn-primary" onclick="genYTTags()">🏷️ Tags Generate करो</button>
+    <div class="output-box" id="ytg-out"><button class="copy-btn" onclick="copyOut('ytg-out')">Copy</button></div>`,
+    script:`function genYTTags(){const t=document.getElementById('ytg-in').value.trim();if(!t)return;const words=t.split(' ');const tags=[t,t+' 2025',t+' in hindi','how to '+t,t+' tutorial',t+' tips',t+' for beginners','best '+t,'easy '+t,t+' guide',...words.map(w=>w+' tips'),...words.map(w=>'best '+w)];document.getElementById('ytg-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'ytg-out\')">Copy</button>'+tags.join(', ');}`
+  },
+  {id:'yt-desc-gen',name:'YouTube Description Generator',desc:'Video description template बनाओ',icon:'📄',cat:'YouTube',color:'#cc0000',badge:'free',
+    html:`<div class="input-group"><label>Video Title</label><input type="text" id="yd-title" placeholder="Video का title..."></div>
+    <div class="input-group"><label>Main Topic (2-3 words)</label><input type="text" id="yd-topic" placeholder="जैसे: earn money online"></div>
+    <button class="btn-primary" onclick="genYTDesc()">📄 Generate Description</button>
+    <div class="output-box" id="yd-out"><button class="copy-btn" onclick="copyOut('yd-out')">Copy</button></div>`,
+    script:`function genYTDesc(){const title=document.getElementById('yd-title').value||'My Video';const topic=document.getElementById('yd-topic').value||'this topic';const desc='✨ '+title+'\n\nIs video mein aap seekhenge '+topic+' ke baare mein. Yeh video specifically unke liye hai jo '+topic+' mein interested hain.\n\n📌 Video Highlights:\n✅ '+topic+' kya hai\n✅ Step by step guide\n✅ Tips & Tricks\n✅ Common mistakes\n\n👉 Like, Share & Subscribe karein!\n\n📱 Follow Us:\n📸 Instagram: https://www.instagram.com/rajakumar18.in\n▶️ YouTube: https://www.youtube.com/@rajakumar18in\n🌐 Website: https://rajakumar18.in\n\n#'+topic.replace(/ /g,'')+'  #YouTube #Hindi';document.getElementById('yd-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'yd-out\')">Copy</button>'+desc;}`
+  },
+  // SEO TOOLS
+  {id:'meta-gen',name:'Meta Tags Generator',desc:'Website ke liye meta tags banao',icon:'🏷️',cat:'SEO',color:'#3f51b5',badge:'new',featured:true,
+    html:`<div class="input-group"><label>Page Title</label><input type="text" id="mg-title" placeholder="Page Title (60 chars max)" maxlength="60"></div>
+    <div class="input-group"><label>Description</label><textarea id="mg-desc" rows="2" placeholder="Description (160 chars max)" maxlength="160"></textarea></div>
+    <div class="input-group"><label>Keywords (comma separated)</label><input type="text" id="mg-kw" placeholder="keyword1, keyword2, keyword3"></div>
+    <button class="btn-primary" onclick="genMeta()">🏷️ Generate Meta Tags</button>
+    <div class="output-box" id="mg-out" style="font-family:monospace;font-size:12px"><button class="copy-btn" onclick="copyOut('mg-out')">Copy</button></div>`,
+    script:`function genMeta(){const t=document.getElementById('mg-title').value,d=document.getElementById('mg-desc').value,k=document.getElementById('mg-kw').value;document.getElementById('mg-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'mg-out\')">Copy</button>&lt;title&gt;'+t+'&lt;/title&gt;\n&lt;meta name="description" content="'+d+'"&gt;\n&lt;meta name="keywords" content="'+k+'"&gt;\n&lt;meta property="og:title" content="'+t+'"&gt;\n&lt;meta property="og:description" content="'+d+'"&gt;';}`
+  },
+  {id:'keyword-density',name:'Keyword Density Checker',desc:'Article mein keyword ka use check karo',icon:'🔍',cat:'SEO',color:'#1565c0',badge:'free',
+    html:`<div class="input-group"><label>Article Text</label><textarea id="kd-text" rows="5" placeholder="Article paste karo..."></textarea></div>
+    <div class="input-group"><label>Keyword</label><input type="text" id="kd-kw" placeholder="Keyword..."></div>
+    <button class="btn-primary" onclick="checkKD()">🔍 Check</button>
+    <div class="output-box" id="kd-out"></div>`,
+    script:`function checkKD(){const text=document.getElementById('kd-text').value.toLowerCase();const kw=document.getElementById('kd-kw').value.toLowerCase();if(!text||!kw)return;const words=text.split(/\s+/).length;const count=(text.match(new RegExp('\\b'+kw+'\\b','g'))||[]).length;const density=(count/words*100).toFixed(2);document.getElementById('kd-out').innerHTML='Total Words: '+words+'<br>Keyword Count: '+count+'<br><b>Density: '+density+'%</b><br>'+(density<1?'⚠️ Too low (aim 1-3%)':density>3?'⚠️ Too high (over-optimized)':'✅ Good density!');}`
+  },
+  // SOCIAL MEDIA TOOLS
+  {id:'instagram-bio',name:'Instagram Bio Generator',desc:'Stylish Instagram bio बनाओ',icon:'📸',cat:'Social',color:'#c13584',badge:'hot',featured:true,
+    html:`<div class="input-group"><label>Your Name / Brand</label><input type="text" id="ib-name" placeholder="जैसे RajaKumar18"></div>
+    <div class="input-group"><label>Your Niche/Work</label><input type="text" id="ib-work" placeholder="जैसे: YouTuber, Blogger, Artist"></div>
+    <div class="input-group"><label>Location</label><input type="text" id="ib-loc" placeholder="जैसे: India 🇮🇳"></div>
+    <button class="btn-primary" onclick="genIGBio()">📸 Generate Bio</button>
+    <div class="output-box" id="ib-out"><button class="copy-btn" onclick="copyOut('ib-out')">Copy</button></div>`,
+    script:`function genIGBio(){const n=document.getElementById('ib-name').value||'Name';const w=document.getElementById('ib-work').value||'Creator';const l=document.getElementById('ib-loc').value||'India';const bios=['👑 '+n+'\n✨ '+w+'\n📍 '+l+'\n⬇️ Links below 👇','🔥 '+n+'\n🎯 '+w+' | Content Creator\n📌 '+l+'\n💫 Follow for daily updates!','⚡ '+n+' | '+w+'\n🌍 '+l+'\n💪 Hustler | Dream Big\n👇 Check my work'];document.getElementById('ib-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'ib-out\')">Copy</button>'+bios.join('\n\n---\n\n');}`
+  },
+  {id:'hashtag-gen',name:'Hashtag Generator',desc:'Instagram/Twitter hashtags generate करो',icon:'#️⃣',cat:'Social',color:'#e91e63',badge:'hot',
+    html:`<div class="input-group"><label>Topic/Niche</label><input type="text" id="hg2-in" placeholder="जैसे: food, travel, cricket"></div>
+    <div class="input-group"><label>Platform</label><select id="hg2-pl"><option>Instagram</option><option>Twitter</option><option>YouTube</option></select></div>
+    <button class="btn-primary" onclick="genHashtags()">Generate Hashtags</button>
+    <div class="output-box" id="hg2-out"><button class="copy-btn" onclick="copyOut('hg2-out')">Copy</button></div>`,
+    script:`function genHashtags(){const t=document.getElementById('hg2-in').value.trim()||'india';const p=document.getElementById('hg2-pl').value;const base=['#'+t,'#'+t+'lover','#'+t+'india','#'+t+'daily','#'+t+'life','#'+t+'world','#love'+t,'#best'+t,'#'+t+'gram','#'+t+'post','#'+t+'photography','#'+t+'2025','#viral'+t,'#trending'+t,'#'+t+'hindi'];const extra=p==='Instagram'?['#instagood','#reelsindia','#explorepage','#instadaily','#trending']:p==='Twitter'?['#Trending','#India','#Viral']:['#YouTube','#Subscribe','#Hindi'];document.getElementById('hg2-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'hg2-out\')">Copy</button>'+[...base,...extra].join(' ');}`
+  },
+  // IMAGE TOOLS
+  {id:'img-resize-info',name:'Image Resize Guide',desc:'Image resize करने के free tools',icon:'🖼️',cat:'Image',color:'#00bcd4',badge:'free',
+    html:`<div style="display:flex;flex-direction:column;gap:12px">
+    <div style="background:rgba(0,188,212,0.1);border:1px solid rgba(0,188,212,0.3);border-radius:12px;padding:16px"><h4 style="color:#00bcd4;margin-bottom:8px">🖼️ Best Free Image Resize Tools</h4>
+    <p style="font-size:13px;color:var(--text-muted)"><a href="https://squoosh.app" target="_blank" style="color:var(--primary)">Squoosh.app</a> — Google का free tool, browser में<br><a href="https://imageresizer.com" target="_blank" style="color:var(--primary)">ImageResizer.com</a> — Simple online resize<br><a href="https://www.iloveimg.com" target="_blank" style="color:var(--primary)">iLoveIMG.com</a> — Bulk resize free</p></div>
+    <div style="background:rgba(255,107,53,0.1);border:1px solid rgba(255,107,53,0.3);border-radius:12px;padding:16px"><h4 style="color:var(--primary);margin-bottom:8px">📐 Common Sizes</h4>
+    <p style="font-size:13px;color:var(--text-muted)">YouTube Thumbnail: 1280×720<br>Instagram Post: 1080×1080<br>Instagram Story: 1080×1920<br>Facebook Cover: 820×312<br>WhatsApp DP: 800×800</p></div></div>`,
+    script:``
+  },
+  {id:'base64-encode',name:'Base64 Encoder/Decoder',desc:'Text को Base64 में convert करो',icon:'🔄',cat:'Developer',color:'#607d8b',badge:'free',
+    html:`<div class="input-group"><label>Text</label><textarea id="b64-in" rows="3" placeholder="Text यहाँ..."></textarea></div>
+    <div class="btn-row"><button class="btn-primary" onclick="b64('encode')">Encode</button><button class="btn-secondary" onclick="b64('decode')">Decode</button></div>
+    <div class="output-box" id="b64-out"><button class="copy-btn" onclick="copyOut('b64-out')">Copy</button></div>`,
+    script:`function b64(type){const t=document.getElementById('b64-in').value;try{const r=type==='encode'?btoa(unescape(encodeURIComponent(t))):decodeURIComponent(escape(atob(t)));document.getElementById('b64-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'b64-out\')">Copy</button>'+r;}catch(e){document.getElementById('b64-out').innerHTML='Error: Invalid input';}}`
+  },
+  {id:'url-encode',name:'URL Encoder/Decoder',desc:'URL encode/decode करो',icon:'🔗',cat:'Developer',color:'#795548',badge:'free',
+    html:`<div class="input-group"><label>URL या Text</label><textarea id="ue-in" rows="3" placeholder="URL यहाँ..."></textarea></div>
+    <div class="btn-row"><button class="btn-primary" onclick="urlEnc('encode')">Encode</button><button class="btn-secondary" onclick="urlEnc('decode')">Decode</button></div>
+    <div class="output-box" id="ue-out"><button class="copy-btn" onclick="copyOut('ue-out')">Copy</button></div>`,
+    script:`function urlEnc(type){const t=document.getElementById('ue-in').value;const r=type==='encode'?encodeURIComponent(t):decodeURIComponent(t);document.getElementById('ue-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'ue-out\')">Copy</button>'+r;}`
+  },
+  {id:'json-formatter',name:'JSON Formatter',desc:'JSON को pretty print करो',icon:'{ }',cat:'Developer',color:'#ff9800',badge:'free',
+    html:`<div class="input-group"><label>JSON paste करो</label><textarea id="jf-in" rows="6" placeholder='{"key":"value"}'></textarea></div>
+    <button class="btn-primary" onclick="fmtJSON()">Format JSON</button>
+    <div class="output-box" id="jf-out" style="font-family:monospace;font-size:13px"><button class="copy-btn" onclick="copyOut('jf-out')">Copy</button></div>`,
+    script:`function fmtJSON(){try{const j=JSON.parse(document.getElementById('jf-in').value);document.getElementById('jf-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'jf-out\')">Copy</button>'+JSON.stringify(j,null,2);}catch(e){document.getElementById('jf-out').innerHTML='❌ Invalid JSON: '+e.message;}}`
+  },
+  {id:'roman-convert',name:'Roman Numeral Converter',desc:'Number को Roman numeral में convert',icon:'Ⅻ',cat:'Converter',color:'#9c27b0',badge:'free',
+    html:`<div class="input-group"><label>Number (1-3999)</label><input type="number" id="rn-in" min="1" max="3999" placeholder="जैसे 2024"></div>
+    <button class="btn-primary" onclick="toRoman()">Convert</button>
+    <div class="output-box" id="rn-out" style="font-size:32px;text-align:center;font-weight:800"></div>`,
+    script:`function toRoman(){let n=parseInt(document.getElementById('rn-in').value);if(!n||n<1||n>3999)return;const v=[1000,900,500,400,100,90,50,40,10,9,5,4,1];const s=['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I'];let r='';v.forEach((val,i)=>{while(n>=val){r+=s[i];n-=val;}});document.getElementById('rn-out').textContent=r;}`
+  },
+  {id:'unit-converter',name:'Unit Converter',desc:'Length, Weight, Temperature convert',icon:'📏',cat:'Converter',color:'#4caf50',badge:'free',
+    html:`<div class="input-group"><label>Category</label><select id="uc-cat" onchange="resetUC()"><option>Length</option><option>Weight</option><option>Temperature</option></select></div>
+    <div class="input-group"><label>Value</label><input type="number" id="uc-val" placeholder="Value..."></div>
+    <div class="input-group"><label>From</label><select id="uc-from"></select></div>
+    <button class="btn-primary" onclick="convertUnit()">Convert</button>
+    <div class="output-box" id="uc-out"></div>`,
+    script:`const ucData={Length:{units:['Meter','Kilometer','Mile','Yard','Foot','Inch','Centimeter'],base:[1,1000,1609.34,0.9144,0.3048,0.0254,0.01]},Weight:{units:['Kilogram','Gram','Pound','Ounce','Ton'],base:[1,0.001,0.453592,0.0283495,1000]},Temperature:{units:['Celsius','Fahrenheit','Kelvin'],base:null}};function resetUC(){const cat=document.getElementById('uc-cat').value;const s=document.getElementById('uc-from');s.innerHTML='';ucData[cat].units.forEach(u=>{const o=document.createElement('option');o.text=u;s.add(o);});}function convertUnit(){const cat=document.getElementById('uc-cat').value;const v=parseFloat(document.getElementById('uc-val').value);const fi=document.getElementById('uc-from').selectedIndex;if(isNaN(v))return;let results='';if(cat==='Temperature'){const c=fi===0?v:fi===1?(v-32)*5/9:v-273.15;results=ucData[cat].units.map((u,i)=>{const r=i===0?c:i===1?c*9/5+32:c+273.15;return u+': '+r.toFixed(2);}).join('\n');}else{const base=v*ucData[cat].base[fi];results=ucData[cat].units.map((u,i)=>u+': '+(base/ucData[cat].base[i]).toFixed(4)).join('\n');}document.getElementById('uc-out').textContent=results;}resetUC();`
+  },
+  // WRITING TOOLS
+  {id:'email-gen',name:'Email Template Generator',desc:'Professional email templates',icon:'📧',cat:'Writing',color:'#1976d2',badge:'free',
+    html:`<div class="input-group"><label>Email Type</label><select id="eg-type"><option>Job Application</option><option>Complaint</option><option>Thank You</option><option>Introduction</option><option>Follow Up</option></select></div>
+    <div class="input-group"><label>Your Name</label><input type="text" id="eg-name" placeholder="Name..."></div>
+    <div class="input-group"><label>Recipient Name</label><input type="text" id="eg-to" placeholder="Recipient..."></div>
+    <button class="btn-primary" onclick="genEmail()">📧 Generate Email</button>
+    <div class="output-box" id="eg-out"><button class="copy-btn" onclick="copyOut('eg-out')">Copy</button></div>`,
+    script:`function genEmail(){const type=document.getElementById('eg-type').value;const name=document.getElementById('eg-name').value||'Your Name';const to=document.getElementById('eg-to').value||'Sir/Ma\'am';const templates={
+'Job Application':'Subject: Application for [Position]\n\nDear '+to+',\n\nI am writing to express my interest in the [Position] role at your company. I am '+name+', and I believe my skills and experience make me a strong candidate.\n\n[Add your experience here]\n\nThank you for your consideration.\n\nRegards,\n'+name,
+'Complaint':'Subject: Complaint Regarding [Issue]\n\nDear '+to+',\n\nI am '+name+', and I am writing to bring to your attention a matter that requires immediate resolution.\n\n[Describe your complaint here]\n\nI request you to look into this matter at the earliest.\n\nThank you,\n'+name,
+'Thank You':'Subject: Thank You!\n\nDear '+to+',\n\nI wanted to take a moment to express my sincere gratitude for [reason]. Your support means a lot to me.\n\n[Add personal note]\n\nBest regards,\n'+name,
+'Introduction':'Subject: Introduction - '+name+'\n\nDear '+to+',\n\nI am '+name+', and I am reaching out to introduce myself. I work in [your field] and I am passionate about [topic].\n\nI would love to connect and explore how we can collaborate.\n\nBest,\n'+name,
+'Follow Up':'Subject: Follow Up - [Topic]\n\nDear '+to+',\n\nI hope this email finds you well. I am following up on my previous email/conversation regarding [topic].\n\nCould you please provide an update at your earliest convenience?\n\nBest regards,\n'+name};
+document.getElementById('eg-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'eg-out\')">Copy</button>'+templates[type];}`
+  },
+  {id:'resume-tips',name:'Resume Writing Tips',desc:'Perfect resume बनाने के tips',icon:'📋',cat:'Writing',color:'#5c6bc0',badge:'free',
+    html:`<div style="display:flex;flex-direction:column;gap:12px">
+    <div style="background:rgba(92,107,192,0.1);border:1px solid rgba(92,107,192,0.3);border-radius:12px;padding:16px"><h4 style="color:#7986cb;margin-bottom:8px">📋 Resume Structure</h4><p style="font-size:13px;color:var(--text-muted)">1. Contact Information<br>2. Professional Summary (2-3 lines)<br>3. Work Experience<br>4. Education<br>5. Skills<br>6. Projects/Achievements</p></div>
+    <div style="background:rgba(0,230,118,0.1);border:1px solid rgba(0,230,118,0.3);border-radius:12px;padding:16px"><h4 style="color:#00e676;margin-bottom:8px">✅ Do's</h4><p style="font-size:13px;color:var(--text-muted)">• Action verbs use करो (Managed, Led, Created)<br>• Numbers add करो (Increased sales by 30%)<br>• 1-2 pages max<br>• ATS-friendly format</p></div>
+    <div style="background:rgba(244,67,54,0.1);border:1px solid rgba(244,67,54,0.3);border-radius:12px;padding:16px"><h4 style="color:#ef5350;margin-bottom:8px">❌ Don'ts</h4><p style="font-size:13px;color:var(--text-muted)">• Photo मत add करो (Western countries)<br>• Personal info जैसे religion, age avoid<br>• Spelling mistakes zero tolerance<br>• Fancy fonts avoid करो</p></div></div>`,
+    script:``
+  },
+  // RANDOM / FUN TOOLS
+  {id:'name-gen',name:'Name Generator',desc:'Random Indian names generate करो',icon:'👤',cat:'Fun',color:'#ff9800',badge:'fun',
+    html:`<div class="input-group"><label>Gender</label><select id="ng-gen"><option>Male</option><option>Female</option><option>Any</option></select></div>
+    <div class="input-group"><label>Language/Region</label><select id="ng-lang"><option>Hindi</option><option>South Indian</option><option>Bengali</option><option>Punjabi</option><option>Any</option></select></div>
+    <button class="btn-primary" onclick="genName()">Generate Name</button>
+    <div class="output-box" id="ng-out" style="font-size:24px;text-align:center;font-weight:700"></div>`,
+    script:`function genName(){const g=document.getElementById('ng-gen').value;const l=document.getElementById('ng-lang').value;const m={Hindi:['Rahul','Amit','Vijay','Suresh','Deepak','Ravi','Pradeep','Ashok','Manish','Rohit'],Female_Hindi:['Priya','Anjali','Pooja','Sunita','Kavita','Nisha','Seema','Rekha','Anita','Meera'],South:['Arjun','Karthik','Suresh','Ramesh','Arun','Ravi','Ganesh','Kumar','Venu','Srinivas'],Bengali:['Subhash','Dipak','Prodip','Ratan','Tapas','Arun','Bimal','Sunil','Rajiv','Pranab'],Punjabi:['Gurpreet','Harpreet','Manpreet','Sukhpreet','Amrinder','Balvinder','Daljit','Harjit','Jaspal','Kulwant']};const pool=l==='Hindi'?(g==='Female'?m.Female_Hindi:m.Hindi):l==='South Indian'?m.South:l==='Bengali'?m.Bengali:l==='Punjabi'?m.Punjabi:[...m.Hindi,...m.Female_Hindi];document.getElementById('ng-out').textContent=pool[Math.floor(Math.random()*pool.length)];}`
+  },
+  {id:'dice-roller',name:'Dice Roller',desc:'Virtual dice roll करो',icon:'🎲',cat:'Fun',color:'#e91e63',badge:'fun',
+    html:`<div class="input-group"><label>Dice Type</label><select id="dr2-type"><option value="6">D6 (Normal)</option><option value="4">D4</option><option value="8">D8</option><option value="10">D10</option><option value="12">D12</option><option value="20">D20</option><option value="100">D100</option></select></div>
+    <div class="input-group"><label>Number of Dice</label><input type="number" id="dr2-num" value="1" min="1" max="10"></div>
+    <button class="btn-primary" onclick="rollDice()">🎲 Roll!</button>
+    <div class="output-box" id="dr2-out" style="font-size:28px;text-align:center;font-weight:800"></div>`,
+    script:`function rollDice(){const d=parseInt(document.getElementById('dr2-type').value);const n=parseInt(document.getElementById('dr2-num').value)||1;const rolls=[];let total=0;for(let i=0;i<n;i++){const r=Math.floor(Math.random()*d)+1;rolls.push(r);total+=r;}document.getElementById('dr2-out').innerHTML=(n>1?'['+rolls.join(', ')+'] = <span style="color:var(--primary)">'+total+'</span>':'<span style="color:var(--primary)">'+rolls[0]+'</span>');}`
+  },
+  {id:'coin-flip',name:'Coin Flipper',desc:'Heads या Tails? Virtual coin flip',icon:'🪙',cat:'Fun',color:'#ffc107',badge:'fun',
+    html:`<div style="text-align:center;padding:20px">
+    <div id="cf-coin" style="width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#ffd700,#ff9800);margin:0 auto 24px;display:flex;align-items:center;justify-content:center;font-size:40px;box-shadow:0 8px 30px rgba(255,215,0,0.4)">🪙</div>
+    <button class="btn-primary" onclick="flipCoin()" style="padding:14px 40px">🪙 Flip!</button>
+    <div id="cf-out" style="margin-top:16px;font-size:24px;font-weight:700"></div>
+    <div id="cf-score" style="margin-top:8px;font-size:13px;color:var(--text-muted)">H: 0 | T: 0</div></div>`,
+    script:`let cfH=0,cfT=0;function flipCoin(){const r=Math.random()>0.5;const coin=document.getElementById('cf-coin');coin.style.animation='spin 0.5s ease';setTimeout(()=>{coin.style.animation='';coin.textContent=r?'👑':'🔵';document.getElementById('cf-out').textContent=r?'👑 HEADS!':'🔵 TAILS!';document.getElementById('cf-out').style.color=r?'var(--gold)':'#2979ff';if(r)cfH++;else cfT++;document.getElementById('cf-score').textContent='H: '+cfH+' | T: '+cfT;},500);}
+    const style=document.createElement('style');style.textContent='@keyframes spin{0%{transform:rotateY(0)}100%{transform:rotateY(720deg)}}';document.head.appendChild(style);`
+  },
+  {id:'random-num',name:'Random Number Generator',desc:'Random numbers generate करो',icon:'🔢',cat:'Fun',color:'#00bcd4',badge:'free',
+    html:`<div class="input-group"><label>Min</label><input type="number" id="rng-min" value="1"></div>
+    <div class="input-group"><label>Max</label><input type="number" id="rng-max" value="100"></div>
+    <div class="input-group"><label>Count</label><input type="number" id="rng-cnt" value="1" min="1" max="100"></div>
+    <button class="btn-primary" onclick="genRNG()">🎲 Generate</button>
+    <div class="output-box" id="rng-out" style="font-size:32px;text-align:center;font-weight:800"></div>`,
+    script:`function genRNG(){const mn=parseInt(document.getElementById('rng-min').value);const mx=parseInt(document.getElementById('rng-max').value);const cn=parseInt(document.getElementById('rng-cnt').value)||1;const nums=[];for(let i=0;i<cn;i++)nums.push(Math.floor(Math.random()*(mx-mn+1))+mn);document.getElementById('rng-out').innerHTML=nums.join(' • ');}`
+  },
+  // FINANCE TOOLS
+  {id:'tip-calc',name:'Tip Calculator',desc:'Restaurant tip calculate करो',icon:'🍽️',cat:'Calculator',color:'#f44336',badge:'free',
+    html:`<div class="input-group"><label>Bill Amount (₹)</label><input type="number" id="tc-bill" placeholder="Bill amount..."></div>
+    <div class="input-group"><label>Tip %: <span id="tc-pct-v">15</span>%</label><input type="range" id="tc-pct" min="0" max="30" value="15" oninput="document.getElementById('tc-pct-v').textContent=this.value;calcTip()"></div>
+    <div class="input-group"><label>Split between</label><input type="number" id="tc-ppl" value="1" min="1"></div>
+    <button class="btn-primary" onclick="calcTip()">Calculate</button>
+    <div class="output-box" id="tc-out"></div>`,
+    script:`function calcTip(){const b=parseFloat(document.getElementById('tc-bill').value)||0;const p=parseInt(document.getElementById('tc-pct').value);const n=parseInt(document.getElementById('tc-ppl').value)||1;const tip=b*p/100;const total=b+tip;document.getElementById('tc-out').innerHTML='Tip: ₹'+tip.toFixed(2)+'<br>Total: ₹'+total.toFixed(2)+'<br><b>Per person: ₹'+(total/n).toFixed(2)+'</b>';}`
+  },
+  {id:'currency-rates',name:'Currency Converter Guide',desc:'Currency exchange rates जानो',icon:'💱',cat:'Finance',color:'#4caf50',badge:'free',
+    html:`<div style="display:flex;flex-direction:column;gap:12px">
+    <div style="background:rgba(76,175,80,0.1);border:1px solid rgba(76,175,80,0.3);border-radius:12px;padding:16px"><h4 style="color:#66bb6a;margin-bottom:8px">💱 Live Rates (Approx)</h4><p style="font-size:13px;color:var(--text-muted)">1 USD ≈ ₹83-85 INR<br>1 EUR ≈ ₹89-92 INR<br>1 GBP ≈ ₹104-108 INR<br>1 AED ≈ ₹22-23 INR<br>1 SAR ≈ ₹22-23 INR</p></div>
+    <div style="background:rgba(255,107,53,0.1);border:1px solid rgba(255,107,53,0.3);border-radius:12px;padding:16px"><h4 style="color:var(--primary);margin-bottom:8px">🏦 Live Rate Check करो</h4><p style="font-size:13px;color:var(--text-muted)">Live rates के लिए:<br><a href="https://www.xe.com" target="_blank" style="color:var(--primary)">XE.com</a> — Best currency converter<br><a href="https://google.com" target="_blank" style="color:var(--primary)">Google</a> — "1 USD to INR" search करो</p></div></div>`,
+    script:``
+  },
+  // HEALTH TOOLS
+  {id:'bmi-calc',name:'BMI Calculator',desc:'Body Mass Index calculate करो',icon:'⚖️',cat:'Health',color:'#00e676',badge:'free',featured:false,
+    html:`<div class="input-group"><label>Height (cm)</label><input type="number" id="bmi-h" placeholder="जैसे 170"></div>
+    <div class="input-group"><label>Weight (kg)</label><input type="number" id="bmi-w" placeholder="जैसे 70"></div>
+    <button class="btn-primary" onclick="calcBMI()">⚖️ Calculate BMI</button>
+    <div class="output-box" id="bmi-out"></div>`,
+    script:`function calcBMI(){const h=parseFloat(document.getElementById('bmi-h').value)/100;const w=parseFloat(document.getElementById('bmi-w').value);if(!h||!w)return;const bmi=(w/(h*h)).toFixed(1);const cat=bmi<18.5?'Underweight 😟':bmi<25?'Normal ✅':bmi<30?'Overweight ⚠️':'Obese ❌';document.getElementById('bmi-out').innerHTML='<b style="font-size:28px;color:var(--primary)">'+bmi+'</b><br>Category: '+cat+'<br><small>Normal range: 18.5 - 24.9</small>';}`
+  },
+  {id:'water-intake',name:'Water Intake Calculator',desc:'Daily पानी पीने की जरूरत जानो',icon:'💧',cat:'Health',color:'#03a9f4',badge:'free',
+    html:`<div class="input-group"><label>Weight (kg)</label><input type="number" id="wi-w" placeholder="जैसे 70"></div>
+    <div class="input-group"><label>Activity Level</label><select id="wi-act"><option value="1.0">Sedentary (Office Work)</option><option value="1.2">Light Exercise</option><option value="1.4">Moderate Exercise</option><option value="1.6">Heavy Exercise</option></select></div>
+    <button class="btn-primary" onclick="calcWater()">💧 Calculate</button>
+    <div class="output-box" id="wi-out"></div>`,
+    script:`function calcWater(){const w=parseFloat(document.getElementById('wi-w').value);const a=parseFloat(document.getElementById('wi-act').value);if(!w)return;const liters=(w*0.033*a).toFixed(1);const glasses=Math.round(liters/0.25);document.getElementById('wi-out').innerHTML='<b style="font-size:24px;color:#03a9f4">💧 '+liters+' Liters/day</b><br>= '+glasses+' glasses (250ml each)<br><small>यह एक estimate है। अपने doctor से consult करें।</small>';}`
+  },
+  {id:'calorie-calc',name:'Calorie Calculator',desc:'Daily calorie need calculate करो',icon:'🔥',cat:'Health',color:'#ff5722',badge:'free',
+    html:`<div class="input-group"><label>Age</label><input type="number" id="cc2-age" placeholder="Age..."></div>
+    <div class="input-group"><label>Gender</label><select id="cc2-gen"><option>Male</option><option>Female</option></select></div>
+    <div class="input-group"><label>Height (cm)</label><input type="number" id="cc2-h" placeholder="Height..."></div>
+    <div class="input-group"><label>Weight (kg)</label><input type="number" id="cc2-w" placeholder="Weight..."></div>
+    <div class="input-group"><label>Activity</label><select id="cc2-act"><option value="1.2">Sedentary</option><option value="1.375">Light Active</option><option value="1.55">Moderate Active</option><option value="1.725">Very Active</option></select></div>
+    <button class="btn-primary" onclick="calcCal()">🔥 Calculate</button>
+    <div class="output-box" id="cc2-out"></div>`,
+    script:`function calcCal(){const age=parseFloat(document.getElementById('cc2-age').value);const gen=document.getElementById('cc2-gen').value;const h=parseFloat(document.getElementById('cc2-h').value);const w=parseFloat(document.getElementById('cc2-w').value);const act=parseFloat(document.getElementById('cc2-act').value);if(!age||!h||!w)return;const bmr=gen==='Male'?88.362+(13.397*w)+(4.799*h)-(5.677*age):447.593+(9.247*w)+(3.098*h)-(4.330*age);const tdee=bmr*act;document.getElementById('cc2-out').innerHTML='BMR: '+Math.round(bmr)+' cal/day<br><b>TDEE: '+Math.round(tdee)+' cal/day</b><br>Weight Loss: '+Math.round(tdee-500)+' cal/day<br>Weight Gain: '+Math.round(tdee+500)+' cal/day';}`
+  },
+  // EDUCATION TOOLS
+  {id:'gpa-calc',name:'GPA/Percentage Calculator',desc:'Marks को GPA/Percentage में convert',icon:'📚',cat:'Education',color:'#673ab7',badge:'free',
+    html:`<div class="input-group"><label>Marks Obtained</label><input type="number" id="gpa-marks" placeholder="जैसे 450"></div>
+    <div class="input-group"><label>Total Marks</label><input type="number" id="gpa-total" placeholder="जैसे 500"></div>
+    <button class="btn-primary" onclick="calcGPA()">📚 Calculate</button>
+    <div class="output-box" id="gpa-out"></div>`,
+    script:`function calcGPA(){const m=parseFloat(document.getElementById('gpa-marks').value);const t=parseFloat(document.getElementById('gpa-total').value);if(!m||!t)return;const pct=(m/t*100).toFixed(2);const gpa=(pct/9.5).toFixed(2);const grade=pct>=90?'A+':pct>=80?'A':pct>=70?'B+':pct>=60?'B':pct>=50?'C':pct>=40?'D':'F';document.getElementById('gpa-out').innerHTML='<b>Percentage: '+pct+'%</b><br>GPA (10 scale): '+gpa+'<br>Grade: '+grade;}`
+  },
+  {id:'times-table',name:'Times Table Generator',desc:'Pahada/Times Table generate करो',icon:'✖️',cat:'Education',color:'#ff9800',badge:'free',
+    html:`<div class="input-group"><label>Number</label><input type="number" id="tt-num" value="12" min="1" max="100"></div>
+    <div class="input-group"><label>Up to</label><input type="number" id="tt-upto" value="20" min="1" max="100"></div>
+    <button class="btn-primary" onclick="genTable()">✖️ Generate</button>
+    <div class="output-box" id="tt-out" style="font-family:monospace"><button class="copy-btn" onclick="copyOut('tt-out')">Copy</button></div>`,
+    script:`function genTable(){const n=parseInt(document.getElementById('tt-num').value);const u=parseInt(document.getElementById('tt-upto').value);let r='';for(let i=1;i<=u;i++)r+=n+' × '+i+' = '+(n*i)+'\n';document.getElementById('tt-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'tt-out\')">Copy</button>'+r;}`
+  },
+  // MORE TOOLS...
+  {id:'stopwatch',name:'Stopwatch & Timer',desc:'Online stopwatch और countdown timer',icon:'⏱️',cat:'Utility',color:'#00bcd4',badge:'free',
+    html:`<div style="text-align:center;padding:16px">
+    <div id="sw-display" style="font-size:48px;font-weight:800;color:var(--primary);font-family:monospace;margin-bottom:24px">00:00.00</div>
+    <div class="btn-row" style="justify-content:center">
+    <button class="btn-primary" id="sw-start" onclick="swToggle()">▶ Start</button>
+    <button class="btn-secondary" onclick="swReset()">⟳ Reset</button>
+    </div>
+    <div style="margin-top:20px"><label style="font-size:13px;color:var(--text-muted)">Countdown (seconds)</label><div style="display:flex;gap:8px;margin-top:6px;justify-content:center"><input type="number" id="cd-secs" placeholder="30" style="max-width:100px"><button class="btn-secondary" onclick="startCD()">⏳ Start</button></div></div></div>`,
+    script:`let swI=null,swMs=0,swRun=false;function swToggle(){if(swRun){clearInterval(swI);swRun=false;document.getElementById('sw-start').textContent='▶ Start';}else{const st=Date.now()-swMs;swI=setInterval(()=>{swMs=Date.now()-st;const m=Math.floor(swMs/60000),s=Math.floor((swMs%60000)/1000),ms=Math.floor((swMs%1000)/10);document.getElementById('sw-display').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')+'.'+String(ms).padStart(2,'0');},10);swRun=true;document.getElementById('sw-start').textContent='⏸ Pause';}}function swReset(){clearInterval(swI);swRun=false;swMs=0;document.getElementById('sw-display').textContent='00:00.00';document.getElementById('sw-start').textContent='▶ Start';}let cdI=null;function startCD(){clearInterval(cdI);let s=parseInt(document.getElementById('cd-secs').value)||10;cdI=setInterval(()=>{s--;document.getElementById('sw-display').textContent='00:'+String(s).padStart(2,'0')+'.00';if(s<=0){clearInterval(cdI);document.getElementById('sw-display').textContent='✅ Done!';alert('Timer Done! ⏰');}},1000);}`
+  },
+  {id:'notepad',name:'Online Notepad',desc:'Quick notes लिखो, auto-save',icon:'📓',cat:'Utility',color:'#ff9800',badge:'free',
+    html:`<div class="input-group"><label>Title</label><input type="text" id="np-title" placeholder="Note Title..." oninput="saveNote()"></div>
+    <textarea id="np-body" rows="10" placeholder="अपने notes यहाँ लिखो... (auto-save)" oninput="saveNote()" style="width:100%;padding:12px;border-radius:10px;border:1.5px solid var(--card-border);background:rgba(255,255,255,0.05);color:var(--text);font-family:inherit;font-size:14px;resize:vertical;outline:none"></textarea>
+    <div class="btn-row"><button class="btn-secondary" onclick="clearNote()">🗑️ Clear</button><button class="btn-primary" onclick="copyNotepad()">📋 Copy All</button></div>
+    <div id="np-status" style="font-size:12px;color:var(--text-muted);margin-top:6px">Auto-save active</div>`,
+    script:`function saveNote(){try{localStorage.setItem('rk18note',JSON.stringify({t:document.getElementById('np-title').value,b:document.getElementById('np-body').value}));document.getElementById('np-status').textContent='✅ Saved at '+new Date().toLocaleTimeString();}catch(e){}}function clearNote(){if(confirm('Note clear करें?')){document.getElementById('np-title').value='';document.getElementById('np-body').value='';}}function copyNotepad(){const t=document.getElementById('np-title').value;const b=document.getElementById('np-body').value;navigator.clipboard.writeText(t+'\n\n'+b).then(()=>alert('Copied!'));}try{const s=JSON.parse(localStorage.getItem('rk18note')||'{}');if(s.t)document.getElementById('np-title').value=s.t;if(s.b)document.getElementById('np-body').value=s.b;}catch(e){}`
+  },
+  {id:'todo-list',name:'Todo List Manager',desc:'Tasks manage करो',icon:'✅',cat:'Utility',color:'#4caf50',badge:'new',
+    html:`<div style="display:flex;gap:8px;margin-bottom:16px"><input type="text" id="todo-in" placeholder="New task..." style="flex:1" onkeypress="if(event.key==='Enter')addTodo()"><button class="btn-primary" onclick="addTodo()">Add</button></div>
+    <div id="todo-list" style="display:flex;flex-direction:column;gap:8px"></div>`,
+    script:`let todos=[];function addTodo(){const t=document.getElementById('todo-in').value.trim();if(!t)return;todos.push({text:t,done:false,id:Date.now()});document.getElementById('todo-in').value='';renderTodos();}function renderTodos(){const el=document.getElementById('todo-list');el.innerHTML=todos.length?todos.map(t=>'<div style="display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--card-bg);border:1px solid var(--card-border);border-radius:10px"><input type="checkbox" '+(t.done?'checked':'')+' onchange="toggleTodo('+t.id+')" style="width:18px;height:18px;cursor:pointer"><span style="flex:1;'+(t.done?'text-decoration:line-through;color:var(--text-muted)':'')+'">'+ t.text+'</span><button onclick="deleteTodo('+t.id+')" style="background:none;border:none;color:#f44336;cursor:pointer;font-size:16px">✕</button></div>').join(''):'<p style="text-align:center;color:var(--text-muted)">No tasks yet!</p>';}function toggleTodo(id){todos=todos.map(t=>t.id===id?{...t,done:!t.done}:t);renderTodos();}function deleteTodo(id){todos=todos.filter(t=>t.id!==id);renderTodos();}renderTodos();`
+  },
+  {id:'pomodoro',name:'Pomodoro Timer',desc:'Focus के लिए Pomodoro technique',icon:'🍅',cat:'Productivity',color:'#f44336',badge:'new',
+    html:`<div style="text-align:center;padding:16px">
+    <div id="pom-mode" style="font-size:14px;color:var(--text-muted);margin-bottom:8px">🍅 Focus Time</div>
+    <div id="pom-display" style="font-size:64px;font-weight:800;color:var(--primary);font-family:monospace;margin-bottom:24px">25:00</div>
+    <div id="pom-count" style="font-size:13px;color:var(--text-muted);margin-bottom:16px">Sessions: 0</div>
+    <div class="btn-row" style="justify-content:center">
+    <button class="btn-primary" id="pom-btn" onclick="pomToggle()">▶ Start</button>
+    <button class="btn-secondary" onclick="pomReset()">⟳ Reset</button>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:center;margin-top:16px">
+    <button class="btn-secondary" onclick="setMode(25,'Focus')">🍅 25min</button>
+    <button class="btn-secondary" onclick="setMode(5,'Short Break')">☕ 5min</button>
+    <button class="btn-secondary" onclick="setMode(15,'Long Break')">🌿 15min</button>
+    </div></div>`,
+    script:`let pomI=null,pomSecs=25*60,pomRun=false,pomSessions=0;function setMode(m,label){pomReset();pomSecs=m*60;document.getElementById('pom-mode').textContent=label;updateDisplay();}function updateDisplay(){const m=Math.floor(pomSecs/60),s=pomSecs%60;document.getElementById('pom-display').textContent=String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');}function pomToggle(){if(pomRun){clearInterval(pomI);pomRun=false;document.getElementById('pom-btn').textContent='▶ Start';}else{pomI=setInterval(()=>{pomSecs--;updateDisplay();if(pomSecs<=0){clearInterval(pomI);pomRun=false;pomSessions++;document.getElementById('pom-count').textContent='Sessions: '+pomSessions;alert('Session complete! 🎉');pomReset();}},1000);pomRun=true;document.getElementById('pom-btn').textContent='⏸ Pause';}}function pomReset(){clearInterval(pomI);pomRun=false;pomSecs=25*60;updateDisplay();document.getElementById('pom-btn').textContent='▶ Start';}updateDisplay();`
+  },
+  // CONTINUE WITH MORE TOOLS
+  {id:'text-to-slug',name:'Text to Slug',desc:'Title को URL slug में convert',icon:'🔗',cat:'Developer',color:'#009688',badge:'free',
+    html:`<div class="input-group"><label>Title</label><input type="text" id="ts-in" placeholder="जैसे: How to Make Money Online"></div>
+    <button class="btn-primary" onclick="toSlug()">Convert to Slug</button>
+    <div class="output-box" id="ts-out" style="font-family:monospace"><button class="copy-btn" onclick="copyOut('ts-out')">Copy</button></div>`,
+    script:`function toSlug(){const t=document.getElementById('ts-in').value;const s=t.toLowerCase().replace(/[^\w\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-').trim();document.getElementById('ts-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'ts-out\')">Copy</button>'+s;}`
+  },
+  {id:'char-counter',name:'Character Counter with Limit',desc:'Twitter/Instagram character limit check',icon:'🔢',cat:'Social',color:'#1da1f2',badge:'free',
+    html:`<div class="input-group"><label>Platform Limit</label><select id="ccl-pl" onchange="checkLimit()"><option value="280">Twitter (280)</option><option value="2200">Instagram Caption (2200)</option><option value="150">Instagram Bio (150)</option><option value="155">Meta Description (155)</option><option value="60">Title Tag (60)</option></select></div>
+    <textarea id="ccl-in" rows="5" placeholder="Text यहाँ..." oninput="checkLimit()"></textarea>
+    <div id="ccl-bar" style="margin-top:12px"><div id="ccl-prog" style="height:6px;border-radius:3px;background:#00e676;transition:all 0.3s;width:0%"></div></div>
+    <div id="ccl-out" style="margin-top:8px;font-size:14px;font-weight:600">0 / 280</div>`,
+    script:`function checkLimit(){const limit=parseInt(document.getElementById('ccl-pl').value);const len=document.getElementById('ccl-in').value.length;const pct=Math.min(len/limit*100,100);const el=document.getElementById('ccl-prog');el.style.width=pct+'%';el.style.background=pct>=100?'#f44336':pct>=80?'#ff9800':'#00e676';document.getElementById('ccl-out').textContent=len+' / '+limit+' ('+(limit-len>=0?limit-len+' remaining':Math.abs(limit-len)+' over limit')+')';}checkLimit();`
+  },
+  {id:'binary-converter',name:'Binary Converter',desc:'Text ↔ Binary convert करो',icon:'01',cat:'Developer',color:'#37474f',badge:'fun',
+    html:`<div class="input-group"><label>Text</label><input type="text" id="bc-in" placeholder="Text यहाँ..."></div>
+    <div class="btn-row"><button class="btn-primary" onclick="binConv('encode')">Text → Binary</button><button class="btn-secondary" onclick="binConv('decode')">Binary → Text</button></div>
+    <div class="output-box" id="bc-out" style="font-family:monospace;font-size:12px"><button class="copy-btn" onclick="copyOut('bc-out')">Copy</button></div>`,
+    script:`function binConv(type){const t=document.getElementById('bc-in').value;if(type==='encode'){const r=t.split('').map(c=>c.charCodeAt(0).toString(2).padStart(8,'0')).join(' ');document.getElementById('bc-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'bc-out\')">Copy</button>'+r;}else{try{const r=t.trim().split(' ').map(b=>String.fromCharCode(parseInt(b,2))).join('');document.getElementById('bc-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'bc-out\')">Copy</button>'+r;}catch(e){document.getElementById('bc-out').textContent='Invalid binary';}}}`
+  },
+  // ADDING MORE TO REACH 100
+  {id:'love-calc',name:'Love Calculator',desc:'Fun: Love percentage calculate करो',icon:'❤️',cat:'Fun',color:'#e91e63',badge:'fun',
+    html:`<div class="input-group"><label>Your Name</label><input type="text" id="lc-n1" placeholder="Your name..."></div>
+    <div class="input-group"><label>Partner Name</label><input type="text" id="lc-n2" placeholder="Partner name..."></div>
+    <button class="btn-primary" onclick="calcLove()">❤️ Calculate!</button>
+    <div class="output-box" id="lc-out" style="text-align:center;font-size:20px"></div>`,
+    script:`function calcLove(){const n1=document.getElementById('lc-n1').value||'A';const n2=document.getElementById('lc-n2').value||'B';const hash=[...n1+n2].reduce((a,c)=>a+c.charCodeAt(0),0);const pct=(hash%41)+60;const hearts='❤️'.repeat(Math.floor(pct/20));document.getElementById('lc-out').innerHTML=hearts+'<br><b style="font-size:36px;color:#e91e63">'+pct+'%</b><br>'+n1+' ❤️ '+n2;}`
+  },
+  {id:'morse-code',name:'Morse Code Converter',desc:'Text को Morse Code में convert',icon:'📡',cat:'Fun',color:'#795548',badge:'fun',
+    html:`<div class="input-group"><label>Text</label><input type="text" id="mc-in" placeholder="Text yahan..."></div>
+    <div class="btn-row"><button class="btn-primary" onclick="morseConv('encode')">Text → Morse</button><button class="btn-secondary" onclick="morseConv('decode')">Morse → Text</button></div>
+    <div class="output-box" id="mc-out" style="font-family:monospace;letter-spacing:2px"><button class="copy-btn" onclick="copyOut('mc-out')">Copy</button></div>`,
+    script:`const morseMap={a:'.-',b:'-...',c:'-.-.',d:'-..',e:'.',f:'..-.',g:'--.',h:'....',i:'..',j:'.---',k:'-.-',l:'.-..',m:'--',n:'-.',o:'---',p:'.--.',q:'--.-',r:'.-.',s:'...',t:'-',u:'..-',v:'...-',w:'.--',x:'-..-',y:'-.--',z:'--..',0:'-----',1:'.----',2:'..---',3:'...--',4:'....-',5:'.....',6:'-....',7:'--...',8:'---..',9:'----.'};const morseRevMap=Object.fromEntries(Object.entries(morseMap).map(([k,v])=>[v,k]));function morseConv(t){const inp=document.getElementById('mc-in').value.toLowerCase();let r;if(t==='encode')r=inp.split('').map(c=>morseMap[c]||c===' '?'/':c).join(' ');else r=inp.split('/').map(w=>w.trim().split(' ').map(m=>morseRevMap[m]||'?').join('')).join(' ');document.getElementById('mc-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'mc-out\')">Copy</button>'+r;}`
+  },
+  {id:'budget-planner',name:'Budget Planner',desc:'Monthly budget plan करो',icon:'💰',cat:'Finance',color:'#4caf50',badge:'new',
+    html:`<div class="input-group"><label>Monthly Income (₹)</label><input type="number" id="bp-inc" placeholder="Income..."></div>
+    <div id="bp-items" style="display:flex;flex-direction:column;gap:8px;margin:12px 0"></div>
+    <button class="btn-secondary" onclick="addBudgetItem()">+ Add Expense</button>
+    <button class="btn-primary" onclick="calcBudget()" style="margin-left:8px">Calculate</button>
+    <div class="output-box" id="bp-out"></div>`,
+    script:`const defaultItems=[['Rent/House',25],['Food/Groceries',20],['Transport',10],['Utilities',8],['Entertainment',5]];const budgetItems=[...defaultItems];function renderBudgetItems(){document.getElementById('bp-items').innerHTML=budgetItems.map((item,i)=>'<div style="display:flex;gap:8px;align-items:center"><input value="'+item[0]+'" onchange="budgetItems['+i+'][0]=this.value" style="flex:2;padding:8px 12px;border-radius:8px;border:1px solid var(--card-border);background:rgba(255,255,255,0.05);color:var(--text);font-family:inherit"><input type="number" value="'+item[1]+'" onchange="budgetItems['+i+'][1]=parseFloat(this.value)||0" style="flex:1;padding:8px 12px;border-radius:8px;border:1px solid var(--card-border);background:rgba(255,255,255,0.05);color:var(--text);font-family:inherit" placeholder="%"><button onclick="budgetItems.splice('+i+',1);renderBudgetItems()" style="background:none;border:none;color:#f44336;cursor:pointer;font-size:16px">✕</button></div>').join('');}function addBudgetItem(){budgetItems.push(['New Item',5]);renderBudgetItems();}function calcBudget(){const inc=parseFloat(document.getElementById('bp-inc').value)||0;const lines=budgetItems.map(([name,pct])=>{const amt=(inc*pct/100).toFixed(0);return name+': ₹'+amt+' ('+pct+'%)';});const totalPct=budgetItems.reduce((s,[,p])=>s+p,0);const savings=inc*(100-totalPct)/100;document.getElementById('bp-out').innerHTML=lines.join('\n')+'\n\n'+(totalPct<=100?'💰 Savings: ₹'+savings.toFixed(0)+' ('+(100-totalPct)+'%)':'❌ Budget exceeds 100%! Reduce expenses.');}renderBudgetItems();`
+  },
+  {id:'readability',name:'Readability Checker',desc:'Text की readability score check',icon:'📖',cat:'Writing',color:'#9c27b0',badge:'free',
+    html:`<div class="input-group"><label>Text</label><textarea id="rb-in" rows="6" placeholder="Text paste karo..."></textarea></div>
+    <button class="btn-primary" onclick="checkReadability()">📖 Check</button>
+    <div class="output-box" id="rb-out"></div>`,
+    script:`function checkReadability(){const text=document.getElementById('rb-in').value;if(!text.trim())return;const words=text.trim().split(/\s+/).length;const sentences=(text.match(/[.!?]+/g)||[]).length||1;const syllables=[...text.toLowerCase().matchAll(/[aeiou]/g)].length;const fre=Math.round(206.835-1.015*(words/sentences)-84.6*(syllables/words));const grade=Math.round(0.39*(words/sentences)+11.8*(syllables/words)-15.59);const level=fre>=90?'Very Easy (5th grade)':fre>=80?'Easy (6th grade)':fre>=70?'Fairly Easy (7th grade)':fre>=60?'Standard (8th-9th grade)':fre>=50?'Fairly Difficult':fre>=30?'Difficult (College)':'Very Difficult';document.getElementById('rb-out').innerHTML='Words: '+words+'<br>Sentences: '+sentences+'<br>Avg words/sentence: '+(words/sentences).toFixed(1)+'<br><b>Readability Score: '+fre+'/100</b><br>Level: '+level;}`
+  },
+  {id:'motivation-gen',name:'Motivational Quote Generator',desc:'Hindi & English motivational quotes',icon:'💪',cat:'Fun',color:'#ff9800',badge:'fun',
+    html:`<div class="input-group"><label>Language</label><select id="mq-lang"><option>Hindi</option><option>English</option><option>Both</option></select></div>
+    <button class="btn-primary" onclick="genQuote()">💪 Get Quote</button>
+    <div class="output-box" id="mq-out" style="font-size:16px;line-height:1.6;font-style:italic;text-align:center"><button class="copy-btn" onclick="copyOut('mq-out')">Copy</button></div>`,
+    script:`const quotes={Hindi:['सपने वो नहीं जो आप सोते समय देखते हैं, सपने वो हैं जो आपको सोने नहीं देते।','कोशिश करने वालों की कभी हार नहीं होती।','जो बीत गया सो बात गई, आज को बेहतर बनाओ।','हार मत मानो, जीत तुम्हारी है।'],English:["Don't watch the clock; do what it does. Keep going.","The only way to do great work is to love what you do.","Success is not final, failure is not fatal: it is the courage to continue that counts.","Believe you can and you're halfway there."]};function genQuote(){const l=document.getElementById('mq-lang').value;let pool=l==='Hindi'?quotes.Hindi:l==='English'?quotes.English:[...quotes.Hindi,...quotes.English];const q=pool[Math.floor(Math.random()*pool.length)];document.getElementById('mq-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'mq-out\')">Copy</button>"'+q+'"';}`
+  },
+  {id:'speech-counter',name:'Speech Timer',desc:'Speech/Presentation time calculate',icon:'🎤',cat:'Utility',color:'#e91e63',badge:'free',
+    html:`<div class="input-group"><label>Text Paste करो</label><textarea id="st-in" rows="5" placeholder="Speech text yahan..."></textarea></div>
+    <div class="input-group"><label>Speaking Speed (WPM)</label><select id="st-speed"><option value="100">Slow (100 WPM)</option><option value="130" selected>Normal (130 WPM)</option><option value="160">Fast (160 WPM)</option></select></div>
+    <button class="btn-primary" onclick="calcSpeech()">🎤 Calculate Time</button>
+    <div class="output-box" id="st-out"></div>`,
+    script:`function calcSpeech(){const text=document.getElementById('st-in').value;const wpm=parseInt(document.getElementById('st-speed').value);const words=text.trim().split(/\s+/).length;const mins=words/wpm;const m=Math.floor(mins),s=Math.round((mins-m)*60);document.getElementById('st-out').innerHTML='Words: '+words+'<br><b>Reading Time: '+m+' min '+s+' sec</b><br>At '+wpm+' WPM';}`
+  },
+  {id:'palindrome-check',name:'Palindrome Checker',desc:'Check करो text palindrome है या नहीं',icon:'🔁',cat:'Fun',color:'#607d8b',badge:'fun',
+    html:`<div class="input-group"><label>Text</label><input type="text" id="pc2-in" placeholder="जैसे: racecar, madam, level"></div>
+    <button class="btn-primary" onclick="checkPalin()">🔁 Check</button>
+    <div class="output-box" id="pc2-out" style="text-align:center;font-size:20px"></div>`,
+    script:`function checkPalin(){const t=document.getElementById('pc2-in').value.toLowerCase().replace(/[^a-z0-9]/g,'');const r=t===[...t].reverse().join('');document.getElementById('pc2-out').innerHTML=r?'✅ Yes! <b style="color:#00e676">Palindrome!</b>':'❌ No, <b style="color:#f44336">not a palindrome</b>';}`
+  },
+  {id:'anagram-check',name:'Anagram Checker',desc:'Check करो दो words anagram हैं',icon:'🔀',cat:'Fun',color:'#9c27b0',badge:'fun',
+    html:`<div class="input-group"><label>Word 1</label><input type="text" id="ag-w1" placeholder="जैसे listen"></div>
+    <div class="input-group"><label>Word 2</label><input type="text" id="ag-w2" placeholder="जैसे silent"></div>
+    <button class="btn-primary" onclick="checkAnagram()">Check Anagram</button>
+    <div class="output-box" id="ag-out" style="text-align:center;font-size:18px"></div>`,
+    script:`function checkAnagram(){const w1=document.getElementById('ag-w1').value.toLowerCase().split('').sort().join('');const w2=document.getElementById('ag-w2').value.toLowerCase().split('').sort().join('');document.getElementById('ag-out').innerHTML=w1&&w2&&w1===w2?'✅ Yes! <b style="color:#00e676">They are Anagrams!</b>':'❌ <b style="color:#f44336">Not Anagrams</b>';}`
+  },
+  {id:'number-to-words',name:'Number to Words',desc:'Numbers को words में convert करो',icon:'🔤',cat:'Converter',color:'#ff9800',badge:'free',
+    html:`<div class="input-group"><label>Number</label><input type="number" id="ntw-in" placeholder="जैसे 12345"></div>
+    <button class="btn-primary" onclick="numToWords()">Convert</button>
+    <div class="output-box" id="ntw-out"><button class="copy-btn" onclick="copyOut('ntw-out')">Copy</button></div>`,
+    script:`function numToWords(){const n=parseInt(document.getElementById('ntw-in').value);if(isNaN(n)){document.getElementById('ntw-out').textContent='Invalid number';return;}const ones=['','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Eleven','Twelve','Thirteen','Fourteen','Fifteen','Sixteen','Seventeen','Eighteen','Nineteen'];const tens=['','','Twenty','Thirty','Forty','Fifty','Sixty','Seventy','Eighty','Ninety'];function conv(n){if(n===0)return'';if(n<20)return ones[n]+' ';if(n<100)return tens[Math.floor(n/10)]+' '+ones[n%10]+' ';if(n<1000)return ones[Math.floor(n/100)]+' Hundred '+conv(n%100);if(n<100000)return conv(Math.floor(n/1000))+' Thousand '+conv(n%1000);if(n<10000000)return conv(Math.floor(n/100000))+' Lakh '+conv(n%100000);return conv(Math.floor(n/10000000))+' Crore '+conv(n%10000000);}const r=n===0?'Zero':conv(n).trim();document.getElementById('ntw-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'ntw-out\')">Copy</button>'+r;}`
+  },
+  {id:'date-calc',name:'Date Calculator',desc:'दो dates के बीच difference जानो',icon:'📅',cat:'Calculator',color:'#2196f3',badge:'free',
+    html:`<div class="input-group"><label>Start Date</label><input type="date" id="dc-start"></div>
+    <div class="input-group"><label>End Date</label><input type="date" id="dc-end"></div>
+    <button class="btn-primary" onclick="calcDate()">📅 Calculate</button>
+    <div class="output-box" id="dc-out"></div>`,
+    script:`function calcDate(){const s=new Date(document.getElementById('dc-start').value);const e=new Date(document.getElementById('dc-end').value);if(isNaN(s)||isNaN(e))return;const diff=Math.abs(e-s);const days=Math.floor(diff/86400000);const weeks=Math.floor(days/7);const months=Math.floor(days/30.44);document.getElementById('dc-out').innerHTML='Days: '+days+'<br>Weeks: '+weeks+'<br>Months: '+months+'<br><small>'+s.toDateString()+' → '+e.toDateString()+'</small>';}`
+  },
+  {id:'tax-calc',name:'Income Tax Calculator',desc:'Basic income tax estimate (India)',icon:'📊',cat:'Finance',color:'#ff5722',badge:'free',
+    html:`<div class="input-group"><label>Annual Income (₹)</label><input type="number" id="tx-inc" placeholder="जैसे 800000"></div>
+    <div class="input-group"><label>Regime</label><select id="tx-reg"><option>New (FY 2024-25)</option><option>Old</option></select></div>
+    <button class="btn-primary" onclick="calcTax()">Calculate Tax</button>
+    <div class="output-box" id="tx-out"></div>`,
+    script:`function calcTax(){const inc=parseFloat(document.getElementById('tx-inc').value)||0;const reg=document.getElementById('tx-reg').value;let tax=0;if(reg.includes('New')){if(inc<=300000)tax=0;else if(inc<=700000)tax=(inc-300000)*0.05;else if(inc<=1000000)tax=20000+(inc-700000)*0.10;else if(inc<=1200000)tax=50000+(inc-1000000)*0.15;else if(inc<=1500000)tax=80000+(inc-1200000)*0.20;else tax=140000+(inc-1500000)*0.30;}else{if(inc<=250000)tax=0;else if(inc<=500000)tax=(inc-250000)*0.05;else if(inc<=1000000)tax=12500+(inc-500000)*0.20;else tax=112500+(inc-1000000)*0.30;}const cess=tax*0.04;const total=tax+cess;document.getElementById('tx-out').innerHTML='Income: ₹'+inc.toLocaleString()+'<br>Tax: ₹'+tax.toFixed(0)+'<br>Cess (4%): ₹'+cess.toFixed(0)+'<br><b>Total Tax: ₹'+total.toFixed(0)+'</b><br>Effective Rate: '+(total/inc*100).toFixed(2)+'%';}`
+  },
+  {id:'sleep-calc',name:'Sleep Calculator',desc:'Sleep schedule calculate करो',icon:'😴',cat:'Health',color:'#673ab7',badge:'free',
+    html:`<div class="input-group"><label>Wake Up Time</label><input type="time" id="sl-wake" value="07:00"></div>
+    <button class="btn-primary" onclick="calcSleep()">😴 Calculate Bedtimes</button>
+    <div class="output-box" id="sl-out"></div>`,
+    script:`function calcSleep(){const wake=document.getElementById('sl-wake').value.split(':');const wakeMs=(parseInt(wake[0])*60+parseInt(wake[1]))*60000;const cycle=90*60000;const fallAsleep=14*60000;const times=[];for(let c=6;c>=4;c--){const bedMs=wakeMs-c*cycle-fallAsleep;let h=Math.floor(bedMs/3600000)%24;if(h<0)h+=24;const m=Math.floor((bedMs%3600000)/60000);times.push({time:String(h).padStart(2,'0')+':'+String(m).padStart(2,'0'),cycles:c});}document.getElementById('sl-out').innerHTML='Bedtimes for '+document.getElementById('sl-wake').value+' wake up:\n\n'+times.map(t=>'🛏️ '+t.time+' ('+t.cycles+' cycles = '+(t.cycles*1.5)+' hours)').join('\n');}`
+  },
+  {id:'typing-speed',name:'Typing Speed Test',desc:'अपनी typing speed test करो',icon:'⌨️',cat:'Fun',color:'#00bcd4',badge:'hot',
+    html:`<div id="ts2-text" style="padding:16px;background:rgba(255,255,255,0.05);border-radius:10px;font-size:15px;line-height:2;margin-bottom:16px;color:var(--text-muted)">The quick brown fox jumps over the lazy dog. Type this sentence as fast as you can!</div>
+    <textarea id="ts2-in" rows="3" placeholder="यहाँ type करो..." oninput="checkTyping()" style="width:100%;padding:12px;border-radius:10px;border:1.5px solid var(--card-border);background:rgba(255,255,255,0.05);color:var(--text);font-family:inherit;font-size:14px;resize:vertical;outline:none"></textarea>
+    <button class="btn-secondary" onclick="resetTyping()" style="margin-top:8px">Reset</button>
+    <div id="ts2-out" style="margin-top:12px;font-size:14px"></div>`,
+    script:`let tsStart=null;function checkTyping(){const t=document.getElementById('ts2-in').value;if(!tsStart&&t.length>0)tsStart=Date.now();const target='The quick brown fox jumps over the lazy dog. Type this sentence as fast as you can!';const elapsed=(Date.now()-tsStart)/60000;const words=t.trim().split(/\s+/).filter(w=>w).length;const wpm=elapsed>0?Math.round(words/elapsed):0;const correct=[...t].filter((c,i)=>c===target[i]).length;const acc=t.length>0?Math.round(correct/t.length*100):100;document.getElementById('ts2-out').innerHTML='WPM: <b>'+wpm+'</b> | Accuracy: <b>'+acc+'%</b>';if(t===target){document.getElementById('ts2-out').innerHTML+='<br>✅ Completed! Final WPM: <b style="color:#00e676">'+wpm+'</b>';}}function resetTyping(){tsStart=null;document.getElementById('ts2-in').value='';document.getElementById('ts2-out').textContent='';}`
+  },
+  {id:'screen-size',name:'Screen Size Detector',desc:'अपनी screen size और resolution जानो',icon:'📺',cat:'Utility',color:'#607d8b',badge:'free',
+    html:`<button class="btn-primary" onclick="detectScreen()">📺 Detect My Screen</button>
+    <div class="output-box" id="ss-out" style="font-size:14px"></div>`,
+    script:`function detectScreen(){const w=window.screen.width,h=window.screen.height,dpr=window.devicePixelRatio||1,vw=window.innerWidth,vh=window.innerHeight;document.getElementById('ss-out').innerHTML='Screen Resolution: <b>'+w+'×'+h+'</b><br>Viewport: <b>'+vw+'×'+vh+'</b><br>Device Pixel Ratio: <b>'+dpr+'</b><br>Actual Pixels: <b>'+(w*dpr)+'×'+(h*dpr)+'</b><br>Device: <b>'+(w<=768?'📱 Mobile':w<=1024?'📟 Tablet':'🖥️ Desktop')+'</b><br>Browser: <b>'+navigator.userAgent.match(/(Chrome|Firefox|Safari|Edge|Opera)/)?navigator.userAgent.match(/(Chrome|Firefox|Safari|Edge|Opera)/)[0]:'Unknown'+'</b>';}`
+  },
+  {id:'gradient-gen',name:'CSS Gradient Generator',desc:'Beautiful CSS gradients बनाओ',icon:'🌈',cat:'Design',color:'#e040fb',badge:'new',
+    html:`<div style="display:flex;gap:12px;margin-bottom:16px">
+    <div class="input-group" style="flex:1"><label>Color 1</label><input type="color" id="gg-c1" value="#ff6b35" onchange="updateGrad()" style="width:100%;height:50px;cursor:pointer;border-radius:8px;border:none"></div>
+    <div class="input-group" style="flex:1"><label>Color 2</label><input type="color" id="gg-c2" value="#ffd700" onchange="updateGrad()" style="width:100%;height:50px;cursor:pointer;border-radius:8px;border:none"></div>
+    </div>
+    <div class="input-group"><label>Direction</label><select id="gg-dir" onchange="updateGrad()"><option value="to right">→ Left to Right</option><option value="to bottom">↓ Top to Bottom</option><option value="135deg">↗ Diagonal</option><option value="to bottom right">↘ Diagonal 2</option><option value="circle">○ Radial</option></select></div>
+    <div id="gg-preview" style="height:100px;border-radius:12px;margin:12px 0;transition:all 0.3s"></div>
+    <div class="output-box" id="gg-out" style="font-family:monospace;font-size:13px"><button class="copy-btn" onclick="copyOut('gg-out')">Copy CSS</button></div>`,
+    script:`function updateGrad(){const c1=document.getElementById('gg-c1').value;const c2=document.getElementById('gg-c2').value;const dir=document.getElementById('gg-dir').value;const type=dir==='circle'?'radial':'linear';const css=type==='radial'?'background: radial-gradient(circle, '+c1+', '+c2+');':'background: linear-gradient('+dir+', '+c1+', '+c2+');';document.getElementById('gg-preview').style.cssText+css;document.getElementById('gg-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'gg-out\')">Copy CSS</button>'+css;}updateGrad();`
+  },
+  {id:'font-pair',name:'Font Pairing Suggester',desc:'Best font combinations suggest करो',icon:'🔤',cat:'Design',color:'#673ab7',badge:'new',
+    html:`<div class="input-group"><label>Style</label><select id="fp-style"><option>Professional/Corporate</option><option>Modern/Minimal</option><option>Creative/Artistic</option><option>Hindi/Indian</option></select></div>
+    <button class="btn-primary" onclick="suggestFonts()">🔤 Suggest Fonts</button>
+    <div id="fp-out" style="margin-top:16px;display:flex;flex-direction:column;gap:12px"></div>`,
+    script:`const fontPairs={Professional:[['Georgia + Arial','Traditional & professional. Google Fonts: Playfair Display + Source Sans Pro'],['Times New Roman + Calibri','Classic business look'],['Garamond + Gill Sans','Elegant & readable']],Modern:[['Inter + Inter','Clean minimal, single font','https://fonts.google.com/specimen/Inter'],['Poppins + Lato','Modern & friendly','https://fonts.google.com/specimen/Poppins'],['Montserrat + Open Sans','Popular modern pair','https://fonts.google.com/specimen/Montserrat']],Creative:[['Raleway + Lora','Artistic & literary'],['Abril Fatface + Roboto','Dramatic heading, clean body'],['Pacifico + Cabin','Fun & playful']],Hindi:[['Noto Sans Devanagari + Baloo 2','Best for Hindi websites'],['Tiro Devanagari + Hind','Readable Hindi text'],['Mukta + Laila','Popular Indian font pair']]};function suggestFonts(){const s=document.getElementById('fp-style').value.split('/')[0].trim();const pairs=fontPairs[s]||fontPairs.Modern;document.getElementById('fp-out').innerHTML=pairs.map(p=>'<div style="background:var(--card-bg);border:1px solid var(--card-border);border-radius:10px;padding:14px"><b>'+p[0]+'</b><br><small style="color:var(--text-muted)">'+p[1]+'</small></div>').join('');}`
+  },
+  {id:'invoice-gen',name:'Invoice Generator',desc:'Simple invoice/bill बनाओ',icon:'🧾',cat:'Finance',color:'#009688',badge:'new',
+    html:`<div class="input-group"><label>Your Business Name</label><input type="text" id="inv-biz" value="RajaKumar18 Services"></div>
+    <div class="input-group"><label>Client Name</label><input type="text" id="inv-client" placeholder="Client Name..."></div>
+    <div id="inv-items" style="display:flex;flex-direction:column;gap:8px;margin:12px 0"></div>
+    <button class="btn-secondary" onclick="addInvItem()">+ Add Item</button>
+    <button class="btn-primary" onclick="genInvoice()" style="margin-left:8px">🧾 Generate</button>
+    <div class="output-box" id="inv-out"><button class="copy-btn" onclick="copyOut('inv-out')">Copy</button></div>`,
+    script:`let invItems=[{desc:'Service',qty:1,rate:1000}];function renderInvItems(){document.getElementById('inv-items').innerHTML=invItems.map((item,i)=>'<div style="display:flex;gap:6px"><input value="'+item.desc+'" onchange="invItems['+i+'].desc=this.value" placeholder="Description" style="flex:2;padding:8px;border-radius:8px;border:1px solid var(--card-border);background:rgba(255,255,255,0.05);color:var(--text);font-family:inherit"><input type="number" value="'+item.qty+'" onchange="invItems['+i+'].qty=parseInt(this.value)||1" placeholder="Qty" style="flex:1;padding:8px;border-radius:8px;border:1px solid var(--card-border);background:rgba(255,255,255,0.05);color:var(--text);font-family:inherit"><input type="number" value="'+item.rate+'" onchange="invItems['+i+'].rate=parseFloat(this.value)||0" placeholder="Rate ₹" style="flex:1;padding:8px;border-radius:8px;border:1px solid var(--card-border);background:rgba(255,255,255,0.05);color:var(--text);font-family:inherit"></div>').join('');}function addInvItem(){invItems.push({desc:'Item',qty:1,rate:500});renderInvItems();}function genInvoice(){const biz=document.getElementById('inv-biz').value;const client=document.getElementById('inv-client').value||'Client';const lines=invItems.map(i=>i.desc.padEnd(20)+i.qty+'  ×  ₹'+i.rate+'  =  ₹'+(i.qty*i.rate)).join('\n');const total=invItems.reduce((s,i)=>s+i.qty*i.rate,0);const date=new Date().toLocaleDateString('en-IN');document.getElementById('inv-out').innerHTML='<button class="copy-btn" onclick="copyOut(\'inv-out\')">Copy</button>INVOICE\n'+biz+'\nDate: '+date+'\nBill To: '+client+'\n\n'+lines+'\n\nTotal: ₹'+total+'\n\nThank you for your business!';}renderInvItems();`
+  },
+  {id:'speed-converter',name:'Internet Speed Calculator',desc:'Internet speed convert करो',icon:'⚡',cat:'Utility',color:'#00bcd4',badge:'free',
+    html:`<div class="input-group"><label>Speed</label><input type="number" id="isc-val" placeholder="जैसे 100"></div>
+    <div class="input-group"><label>From</label><select id="isc-from"><option value="mbps">Mbps</option><option value="kbps">Kbps</option><option value="gbps">Gbps</option><option value="MBps">MB/s</option></select></div>
+    <button class="btn-primary" onclick="convSpeed()">Convert</button>
+    <div class="output-box" id="isc-out"></div>`,
+    script:`function convSpeed(){const v=parseFloat(document.getElementById('isc-val').value)||0;const from=document.getElementById('isc-from').value;const toBps={mbps:v*1000000,kbps:v*1000,gbps:v*1000000000,MBps:v*8000000};const bps=toBps[from];document.getElementById('isc-out').innerHTML='Kbps: '+(bps/1000).toFixed(2)+'<br>Mbps: '+(bps/1000000).toFixed(2)+'<br>Gbps: '+(bps/1000000000).toFixed(4)+'<br>KB/s: '+(bps/8000).toFixed(2)+'<br>MB/s: '+(bps/8000000).toFixed(4)+'<br><br>Download 1GB at this speed: '+((1024*8)/(bps/1000000/1000)).toFixed(1)+' minutes';}`
+  },
+  {id:'aspect-ratio',name:'Aspect Ratio Calculator',desc:'Image/Video aspect ratio calculate',icon:'📐',cat:'Design',color:'#ff5722',badge:'free',
+    html:`<div class="input-group"><label>Width (px)</label><input type="number" id="ar-w" placeholder="Width..."></div>
+    <div class="input-group"><label>Height (px)</label><input type="number" id="ar-h" placeholder="Height..."></div>
+    <button class="btn-primary" onclick="calcAR()">Calculate</button>
+    <div class="output-box" id="ar-out"></div>`,
+    script:`function calcAR(){const w=parseInt(document.getElementById('ar-w').value);const h=parseInt(document.getElementById('ar-h').value);if(!w||!h)return;function gcd(a,b){return b===0?a:gcd(b,a%b);}const g=gcd(w,h);const rw=w/g,rh=h/g;const common={[16/9]:'16:9 (Widescreen)',[4/3]:'4:3 (Standard)',[1]:'1:1 (Square)',[9/16]:'9:16 (Portrait/Story)',[3/2]:'3:2 (DSLR)'};const ratio=w/h;const name=common[parseFloat(ratio.toFixed(3))]||'Custom';document.getElementById('ar-out').innerHTML='Ratio: <b>'+rw+':'+rh+'</b><br>Format: '+name+'<br><small>New height for 1920px wide: '+Math.round(1920*h/w)+'px</small>';}`
+  },
+  {id:'emoji-picker',name:'Emoji Picker & Copy',desc:'Emojis ढूंढो और copy करो',icon:'😊',cat:'Social',color:'#ff9800',badge:'fun',
+    html:`<div class="input-group"><input type="text" id="ep-search" placeholder="Search emoji..." oninput="searchEmoji(this.value)"></div>
+    <div id="ep-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:6px;max-height:200px;overflow-y:auto;padding:8px"></div>
+    <div id="ep-copied" style="margin-top:12px;font-size:13px;color:var(--text-muted)">Click any emoji to copy</div>`,
+    script:`const emojis=['😀','😂','🥰','😎','🤔','😴','🥺','😡','🤩','😇','🎉','🔥','💯','❤️','💪','👍','✨','🌟','🎯','🏆','🍕','🍔','☕','🎮','📱','💻','🎵','🎨','📚','💰','🌈','⭐','🙏','👀','💡','🚀','🎁','🌸','💎','🦁','🐯','🦊','🐧','🦋','🌺','🏠','🚗','✈️','🌍','🇮🇳'];function searchEmoji(q){const filtered=q?emojis.filter(e=>true):emojis;document.getElementById('ep-grid').innerHTML=filtered.map(e=>'<div onclick="copyEmoji(\''+e+'\')" title="Click to copy" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;border-radius:8px;background:rgba(255,255,255,0.05);transition:all 0.15s" onmouseover="this.style.background=\'rgba(255,107,53,0.2)\'" onmouseout="this.style.background=\'rgba(255,255,255,0.05)\'">'+e+'</div>').join('');}function copyEmoji(e){navigator.clipboard.writeText(e);document.getElementById('ep-copied').textContent='Copied: '+e+' ✓';}searchEmoji('');`
+  },
+  {id:'text-diff',name:'Text Difference Finder',desc:'दो texts में difference ढूंढो',icon:'🔍',cat:'Text',color:'#2196f3',badge:'free',
+    html:`<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+    <div class="input-group"><label>Text 1 (Original)</label><textarea id="td-t1" rows="6" placeholder="Original text..."></textarea></div>
+    <div class="input-group"><label>Text 2 (Modified)</label><textarea id="td-t2" rows="6" placeholder="Modified text..."></textarea></div>
+    </div>
+    <button class="btn-primary" onclick="findDiff()">🔍 Find Differences</button>
+    <div class="output-box" id="td-out" style="font-size:13px"></div>`,
+    script:`function findDiff(){const t1=document.getElementById('td-t1').value.split('\n');const t2=document.getElementById('td-t2').value.split('\n');const out=[];const max=Math.max(t1.length,t2.length);let diffs=0;for(let i=0;i<max;i++){if(t1[i]===undefined){out.push('<span style="color:#00e676">+ '+t2[i]+'</span>');diffs++;}else if(t2[i]===undefined){out.push('<span style="color:#f44336">- '+t1[i]+'</span>');diffs++;}else if(t1[i]!==t2[i]){out.push('<span style="color:#f44336">- '+t1[i]+'</span>');out.push('<span style="color:#00e676">+ '+t2[i]+'</span>');diffs++;}else out.push('  '+t1[i]);}document.getElementById('td-out').innerHTML=diffs+' differences found:\n\n'+out.join('\n');}`
+  },
+];
+
+// ============================================================
+// CATEGORIES
+const CATEGORIES = [
+  {name:'All',icon:'🔧',color:'#ff6b35'},
+  {name:'Text',icon:'📝',color:'#9c27b0'},
+  {name:'Calculator',icon:'🧮',color:'#ff9800'},
+  {name:'Generator',icon:'⚡',color:'#4caf50'},
+  {name:'Social',icon:'📱',color:'#e91e63'},
+  {name:'SEO',icon:'🔍',color:'#3f51b5'},
+  {name:'YouTube',icon:'▶️',color:'#f44336'},
+  {name:'Design',icon:'🎨',color:'#e91e63'},
+  {name:'Finance',icon:'💰',color:'#4caf50'},
+  {name:'Health',icon:'💊',color:'#00e676'},
+  {name:'Education',icon:'📚',color:'#673ab7'},
+  {name:'Developer',icon:'</> ',color:'#607d8b'},
+  {name:'Fun',icon:'🎮',color:'#ff4081'},
+  {name:'Utility',icon:'🛠️',color:'#00bcd4'},
+  {name:'Security',icon:'🔒',color:'#ff5722'},
+  {name:'Image',icon:'🖼️',color:'#00bcd4'},
+  {name:'Writing',icon:'✍️',color:'#1976d2'},
+  {name:'Converter',icon:'🔄',color:'#ff9800'},
+  {name:'Productivity',icon:'📌',color:'#f44336'},
+];
+
+// ============================================================
+// RENDER FUNCTIONS
+// ============================================================
+function renderCategories() {
+  const bar = document.getElementById('cats-bar');
+  if(!bar) return;
+  bar.innerHTML = CATEGORIES.map(c =>
+    `<button class="cat-btn ${c.name==='All'?'active':''}" onclick="filterCat('${c.name}',this)">${c.icon} ${c.name}</button>`
+  ).join('');
+}
+
+function renderCatGrid() {
+  const g = document.getElementById('cat-grid');
+  if(!g) return;
+  g.innerHTML = CATEGORIES.filter(c=>c.name!=='All').map(c => {
+    const count = TOOLS.filter(t => t.cat === c.name).length;
+    if(!count) return '';
+    return `<div onclick="showCat('${c.name}')" style="background:var(--card-bg);border:1.5px solid var(--card-border);border-radius:16px;padding:20px;cursor:pointer;text-align:center;transition:all 0.2s" onmouseover="this.style.borderColor='${c.color}';this.style.transform='translateY(-3px)'" onmouseout="this.style.borderColor='var(--card-border)';this.style.transform='none'">
+      <div style="font-size:32px;margin-bottom:8px">${c.icon}</div>
+      <div style="font-size:13px;font-weight:700">${c.name}</div>
+      <div style="font-size:11px;color:var(--text-muted)">${count} tools</div>
+    </div>`;
+  }).join('');
+}
+
+function renderFeatured() {
+  const g = document.getElementById('featured-grid');
+  if(!g) return;
+  const featured = TOOLS.filter(t => t.featured).slice(0, 8);
+  g.innerHTML = featured.map(t => toolCard(t)).join('');
+}
+
+function renderAllTools(list) {
+  const g = document.getElementById('all-tools-grid');
+  if(!g) return;
+  if(!list || !list.length) {
+    g.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:40px">No tools found. Try different search!</div>';
+    return;
+  }
+  g.innerHTML = list.map(t => toolCard(t)).join('');
+}
+
+function toolCard(t) {
+  return `<div class="tool-card" style="--card-accent:${t.color}" onclick="openTool('${t.id}')">
+    <div style="display:flex;align-items:center;gap:12px">
+      <div class="tool-icon" style="background:${t.color}22;color:${t.color}">${t.icon}</div>
+      <span class="tool-badge ${t.badge==='hot'?'hot':t.badge==='new'?'new':''}">${t.badge==='hot'?'🔥 Hot':t.badge==='new'?'✨ New':'✅ Free'}</span>
+    </div>
+    <h3>${t.name}</h3>
+    <p>${t.desc}</p>
+  </div>`;
+}
+
+let activeCat = 'All';
+let searchQuery = '';
+
+function filterCat(cat, btn) {
+  activeCat = cat;
+  document.querySelectorAll('#cats-bar .cat-btn').forEach(b => b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  renderFiltered();
+}
+
+function filterTools(q) {
+  searchQuery = q.toLowerCase();
+  if(document.getElementById('tools').classList.contains('active') || !q) renderFiltered();
+  if(q) showPage('tools');
+}
+
+function renderFiltered() {
+  let list = TOOLS;
+  if(activeCat !== 'All') list = list.filter(t => t.cat === activeCat);
+  if(searchQuery) list = list.filter(t => t.name.toLowerCase().includes(searchQuery) || t.desc.toLowerCase().includes(searchQuery) || t.cat.toLowerCase().includes(searchQuery));
+  renderAllTools(list);
+}
+
+function showCat(cat) {
+  showPage('tools');
+  activeCat = cat;
+  searchQuery = '';
+  document.querySelectorAll('#cats-bar .cat-btn').forEach(b => {
+    b.classList.toggle('active', b.textContent.includes(cat));
+  });
+  renderFiltered();
+}
+
+// ============================================================
+// TOOL MODAL
+// ============================================================
+function openTool(id) {
+  const tool = TOOLS.find(t => t.id === id);
+  if(!tool) return;
+  const modal = document.getElementById('modal');
+  const body = document.getElementById('modal-body');
+  body.innerHTML = `
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+      <div class="tool-icon" style="background:${tool.color}22;color:${tool.color};width:52px;height:52px;font-size:26px">${tool.icon}</div>
+      <div><h2>${tool.name}</h2><p class="modal-desc">${tool.desc}</p></div>
+    </div>
+    ${tool.html}
+  `;
+  if(tool.script) {
+    const s = document.createElement('script');
+    s.textContent = tool.script;
+    body.appendChild(s);
+  }
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function openToolById(id) {
+  openTool(id);
+}
+
+function closeModal(e) {
+  if(e && e.target !== document.getElementById('modal')) return;
+  document.getElementById('modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ============================================================
+// HELPERS
+// ============================================================
+function copyOut(id) {
+  const el = document.getElementById(id);
+  const text = el.innerText.replace('Copy','').trim();
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = el.querySelector('.copy-btn');
+    if(btn) { btn.textContent = 'Copied! ✓'; setTimeout(() => btn.textContent = 'Copy', 2000); }
+  });
+}
+
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  window.scrollTo(0, 0);
+  if(id === 'tools') {
+    renderCategories();
+    renderFiltered();
+  }
+}
+
+function toggleMenu() {
+  document.getElementById('main-nav').classList.toggle('open');
+}
+
+// INIT
+document.addEventListener('DOMContentLoaded', () => {
+  renderFeatured();
+  renderCatGrid();
+  renderCategories();
+  renderFiltered();
+});
+
+// ESC to close modal
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape') { document.getElementById('modal').classList.remove('open'); document.body.style.overflow = ''; }
+});
+</script>
+</body>
+</html>
